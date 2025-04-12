@@ -9,7 +9,7 @@ import img4 from '../../assets/img/team/team4.png'
 const TeamData =[
     {
         img:img1,
-        name:"Ms. Sandela",
+        name:"Ms. Mukhlisa",
         posation:"CEO",
     },
     {
@@ -34,7 +34,7 @@ const Team = (props) => {
         <>
         <section id="team_area" className={`ptb-100 ${props.class}`} >
         <div className="container">
-            <Heading heading="Expert Team" para="This is our expert team members of AndShop" />
+            <Heading heading="Expert Team" para="This is our expert team members of BookHeaven" />
             <div className="row">
                 {TeamData.map((data, index)=>(
                     <div className="col-lg-3" key={index}>
