@@ -22,10 +22,10 @@ const AboutTop = () => {
                   </h4>
                   <p>
                     <strong>"BOOKHEAVEN</strong> is an multi-vendor B2C fast
-                    e-commerce company. The company mainly focuses on different kind of books!.{" "}
-                    <strong>ANDSHOP</strong> mainly targets Europe, America,
-                    Australia, and the Middle East along with other consumer
-                    markets."
+                    e-commerce company. The company mainly focuses on different
+                    kind of books!. <strong>BOOKHEAVEN</strong> mainly targets
+                    Europe, America, Australia, and the Middle East along with
+                    other consumer markets."
                   </p>
                   <p>
                     The brand was founded in October 2021, and since then it has
