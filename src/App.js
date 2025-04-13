@@ -36,7 +36,7 @@ const OrderSuccesses = loadable(() => pMinDelay(import('./page/order/order-succe
 // const EmailTemplateThrees = loadable(() => pMinDelay(import('./page/email/email-template-three'), 250), { fallback: <Loading /> });
 // const InvoiceOne = loadable(() => pMinDelay(import('./page/invoice/index'), 250), { fallback: <Loading /> });
 // const InvoiceTwo = loadable(() => pMinDelay(import('./page/invoice/invoice-two'), 250), { fallback: <Loading /> });
-const LookBooks = loadable(() => pMinDelay(import('./page/shop/look-book'), 250), { fallback: <Loading /> });
+// const LookBooks = loadable(() => pMinDelay(import('./page/shop/look-book'), 250), { fallback: <Loading /> });
 const BlogGridThrees = loadable(() => pMinDelay(import('./page/blog/blog-grid-two'), 250), { fallback: <Loading /> });
 const BlogGridTwos = loadable(() => pMinDelay(import('./page/blog/'), 250), { fallback: <Loading /> });
 const BlogListView = loadable(() => pMinDelay(import('./page/blog/blog-list'), 250), { fallback: <Loading /> });
@@ -104,7 +104,7 @@ const App = () => {
             <Route path='/email-template-three' exact component={EmailTemplateThrees} /> */}
             {/* <Route path='/invoice-one' exact component={InvoiceOne} />
             <Route path='/invoice-two' exact component={InvoiceTwo} /> */}
-            <Route path='/lookbooks' exact component={LookBooks} />
+            {/* <Route path='/lookbooks' exact component={LookBooks} /> */}
             <Route path='/blog-grid-three' exact component={BlogGridThrees} />
             <Route path='/blog-grid-two' exact component={BlogGridTwos} />
             <Route path='/blog-list-view' exact component={BlogListView} />
