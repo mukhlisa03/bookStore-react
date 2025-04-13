@@ -35,60 +35,72 @@ const Banner = () => {
         ]
       };
     return (
-        <>
-    <section id="furniture_banner">
-      <div className="furniture_slider_box">
-      <Slider {...settings}>
-        <div className="furniture_slider background_bg bg_1">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-6 col-md-8 col-sm-12 col-12">
-                <div className="furniture_slider_content">
-                  <h5> NEW TRENDING</h5>
-                  <h2> Sofa Collection</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
-                  <Link to="/shop" className="theme-btn-one bg-black btn_sm">Shop Now</Link>
+      <>
+        <section id="furniture_banner">
+          <div className="furniture_slider_box">
+            <Slider {...settings}>
+              <div className="furniture_slider background_bg bg_1">
+                <div className="container">
+                  <div className="row">
+                    <div className="col-lg-6 col-md-8 col-sm-12 col-12">
+                      <div className="furniture_slider_content">
+                        <h5> NEW BOOK</h5>
+                        <h2> Book Collection</h2>
+                        <p>This is the best BookStore!</p>
+                        <Link
+                          to="/shop"
+                          className="theme-btn-one bg-black btn_sm"
+                        >
+                          Shop Now
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-        <div className="furniture_slider background_bg bg_2">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-6">
-                <div className="furniture_slider_content">
-                  <h5> NEW TRENDING</h5>
-                  <h2> Sofa Collection</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
-                    <Link to="/shop" className="theme-btn-one bg-black btn_sm">Shop Now</Link>
+              <div className="furniture_slider background_bg bg_2">
+                <div className="container">
+                  <div className="row">
+                    <div className="col-lg-6">
+                      <div className="furniture_slider_content">
+                        <h5> NEW BOOK</h5>
+                        <h2> Book Collection</h2>
+                        <p>This is the best BookStore!</p>
+                        <Link
+                          to="/shop"
+                          className="theme-btn-one bg-black btn_sm"
+                        >
+                          Shop Now
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-        <div className="furniture_slider background_bg bg_3">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-6">
-                <div className="furniture_slider_content">
-                  <h5> NEW TRENDING</h5>
-                  <h2> Sofa Collection</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
-                    <Link to="/shop" className="theme-btn-one bg-black btn_sm">Shop Now</Link>
+              <div className="furniture_slider background_bg bg_3">
+                <div className="container">
+                  <div className="row">
+                    <div className="col-lg-6">
+                      <div className="furniture_slider_content">
+                        <h5> NEW BOOK</h5>
+                        <h2> Book Collection</h2>
+                        <p>This is the best BookStore!</p>
+                        <Link
+                          to="/shop"
+                          className="theme-btn-one bg-black btn_sm"
+                        >
+                          Shop Now
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Slider>
           </div>
-        </div>
-        </Slider>
-      </div>
-    </section>
-        </>
-    )
+        </section>
+      </>
+    );
 }
 
 export default Banner

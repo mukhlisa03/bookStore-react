@@ -2634,11 +2634,11 @@ button {
      Banner Area
 ---------------------------*/
 .bg_1 {
-    background-image: url('../img/furniture/banner/banner1.png');
+    background-image: url('../img/furniture/banner/library.bg1.jpg');
 }
 
 .bg_2 {
-    background-image: url('../img/furniture/banner/banner2.png');
+    background-image: url('../img/furniture/banner/lib.bg.jpg');
 }
 
 .bg_3 {
@@ -3236,15 +3236,15 @@ button {
 }
 
 .el_bg_1 {
-    background-image: url('../img/electronics/banner/banner1.png');
+    /* background-image: url('../img/electronics/banner/banner1.png'); */
 }
 
 .el_bg_2 {
-    background-image: url('../img/electronics/banner/banner2.png');
+    /* background-image: url('../img/electronics/banner/banner2.png'); */
 }
 
 .el_bg_3 {
-    background-image: url('../img/electronics/banner/banner3.png');
+    /* background-image: url('../img/electronics/banner/banner3.png'); */
 }
 
 /* --Banner Bottom Area-- */
@@ -3596,9 +3596,16 @@ button {
     margin: 0;
 }
 
-.plus-minus-input input[type=number] {
+/* .plus-minus-input input[type=number] {
     -moz-appearance: textfield;
+}  xatolik sababi patdagi code yozldi*/    
+
+.plus-minus-input input[type=number] {
+    -webkit-appearance: textfield; /* Safari va Chrome */
+    -moz-appearance: textfield;    /* Firefox */
+    appearance: textfield;         /* Standart */
 }
+
 
 .plus-minus-input button {
     background: #000;
@@ -7706,7 +7713,7 @@ table {
 
 /* --Banner-- */
 #grocery_banner {
-    background-image: url('../img/grocery/banner/grocery_banner_bg.png');
+    /* background-image: url('../img/grocery/banner/grocery_banner_bg.png'); */
     background-size: cover;
     background-repeat: no-repeat;
     padding: 50px 0;
@@ -7987,7 +7994,7 @@ table {
 }
 
 .grocery_cat_wrapper {
-    background-image: url('../img/grocery/banner/grocery_cta_bg.png');
+    /* background-image: url('../img/grocery/banner/grocery_cta_bg.png'); */
     background-repeat: no-repeat;
     padding-top: 30px;
 }
@@ -8352,7 +8359,7 @@ table {
        Jewellary Page
 -------------------------------*/
 #jewellry_banner {
-    background-image: url("../img/jewellary/banner/banner.png");
+    /* background-image: url("../img/jewellary/banner/banner.png"); */
     padding: 160px 0;
     background-size: cover;
     background-repeat: no-repeat;
@@ -8531,7 +8538,7 @@ table {
 }
 
 #paralex_area {
-    background-image: url("../img/jewellary/banner/paralex.png");
+    /* background-image: url("../img/jewellary/banner/paralex.png"); */
     padding: 145px 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -8682,7 +8689,7 @@ table {
 
 #baby_offer_banner {
     padding: 150px 0;
-    background-image: url("../img/baby-shop/banner/offer_bg.jpg");
+    /* background-image: url("../img/baby-shop/banner/offer_bg.jpg"); */
     background-repeat: no-repeat;
 }
 

@@ -35,10 +35,10 @@ import imge9 from '../../assets/img/electronics/product/9.jpg'
 import imge10 from '../../assets/img/electronics/product/10.jpg'
 
 // pharmacy img 
-import Pro1 from '../../assets/img/pharmacy/product/pro-1.png'
-import Pro2 from '../../assets/img/pharmacy/product/pro-2.png'
-import Pro3 from '../../assets/img/pharmacy/product/pro-3.png'
-import Pro4 from '../../assets/img/pharmacy/product/pro-4.png'
+// import Pro1 from '../../assets/img/pharmacy/product/pro-1.png'
+// import Pro2 from '../../assets/img/pharmacy/product/pro-2.png'
+// import Pro3 from '../../assets/img/pharmacy/product/pro-3.png'
+// import Pro4 from '../../assets/img/pharmacy/product/pro-4.png'
 
 
 export const ProductData = [
@@ -992,8 +992,8 @@ export const ProductData = [
         id: 30,
         labels: "20% OFF",
         category: "electronics",
-        img: imge10,
-        hover_img: imge1,
+        // img: imge10,
+        // hover_img: imge1,
         title: "Apple EarPods with Lightning",
         price: 544,
         description: `Unlike traditional, circular earbuds, the design of the EarPods is defined by the geometry of the ear which 
@@ -1007,17 +1007,17 @@ export const ProductData = [
         color: [
             {
                 color: "green",
-                img: imge9,
+                // img: imge9,
                 quantity: 1,
             },
             {
                 color: "red",
-                img: imge10,
+                // img: imge10,
                 quantity: 1,
             },
             {
                 color: "blue",
-                img: imge1,
+                // img: imge1,
                 quantity: 1,
             },
         ]
@@ -1027,7 +1027,7 @@ export const ProductData = [
         id: 31,
         batch: "Hot",
         category: "pharmacy",
-        img: Pro1,
+        // img: Pro1,
         title: "Antiseptic gel",
         price: 100,
         oldprice: 120,
@@ -1042,17 +1042,17 @@ export const ProductData = [
         color: [
             {
                 color: "green",
-                img: imge9,
+                // img: imge9,
                 quantity: 1,
             },
             {
                 color: "red",
-                img: imge10,
+                // img: imge10,
                 quantity: 1,
             },
             {
                 color: "blue",
-                img: imge1,
+                // img: imge1,
                 quantity: 1,
             },
         ]
@@ -1061,7 +1061,7 @@ export const ProductData = [
         id: 32,
         batch: "Hot",
         category: "pharmacy",
-        img: Pro2,
+        // img: Pro2,
         title: "Antiseptic gel",
         price: 100,
         oldprice: 120,
@@ -1076,17 +1076,17 @@ export const ProductData = [
         color: [
             {
                 color: "green",
-                img: imge9,
+                // img: imge9,
                 quantity: 1,
             },
             {
                 color: "red",
-                img: imge10,
+                // img: imge10,
                 quantity: 1,
             },
             {
                 color: "blue",
-                img: imge1,
+                // img: imge1,
                 quantity: 1,
             },
         ]
@@ -1095,7 +1095,7 @@ export const ProductData = [
         id: 33,
         batch: "Hot",
         category: "pharmacy",
-        img: Pro3,
+        // img: Pro3,
         title: "Antiseptic gel",
         price: 100,
         oldprice: 120,
@@ -1110,17 +1110,17 @@ export const ProductData = [
         color: [
             {
                 color: "green",
-                img: imge9,
+                // img: imge9,
                 quantity: 1,
             },
             {
                 color: "red",
-                img: imge10,
+                // img: imge10,
                 quantity: 1,
             },
             {
                 color: "blue",
-                img: imge1,
+                // img: imge1,
                 quantity: 1,
             },
         ]
@@ -1129,7 +1129,7 @@ export const ProductData = [
         id: 34,
         batch: "Hot",
         category: "pharmacy",
-        img: Pro4,
+        // img: Pro4,
         title: "Antiseptic gel",
         price: 100,
         oldprice: 120,
@@ -1144,17 +1144,17 @@ export const ProductData = [
         color: [
             {
                 color: "green",
-                img: imge9,
+                // img: imge9,
                 quantity: 1,
             },
             {
                 color: "red",
-                img: imge10,
+                // img: imge10,
                 quantity: 1,
             },
             {
                 color: "blue",
-                img: imge1,
+                // img: imge1,
                 quantity: 1,
             },
         ]
