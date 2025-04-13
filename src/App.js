@@ -31,9 +31,9 @@ const OrderComplete = loadable(() => pMinDelay(import('./page/order/order-comple
 const OrderTracking = loadable(() => pMinDelay(import('./page/order/order-tracking'), 250), { fallback: <Loading /> });
 const ProductHover = loadable(() => pMinDelay(import('./page/product/product-hover'), 250), { fallback: <Loading /> });
 const OrderSuccesses = loadable(() => pMinDelay(import('./page/order/order-success'), 250), { fallback: <Loading /> });
-const EmailTemplateOnes = loadable(() => pMinDelay(import('./page/email/index'), 250), { fallback: <Loading /> });
-const EmailTemplateTwos = loadable(() => pMinDelay(import('./page/email/email-template-two'), 250), { fallback: <Loading /> });
-const EmailTemplateThrees = loadable(() => pMinDelay(import('./page/email/email-template-three'), 250), { fallback: <Loading /> });
+// const EmailTemplateOnes = loadable(() => pMinDelay(import('./page/email/index'), 250), { fallback: <Loading /> });
+// const EmailTemplateTwos = loadable(() => pMinDelay(import('./page/email/email-template-two'), 250), { fallback: <Loading /> });
+// const EmailTemplateThrees = loadable(() => pMinDelay(import('./page/email/email-template-three'), 250), { fallback: <Loading /> });
 // const InvoiceOne = loadable(() => pMinDelay(import('./page/invoice/index'), 250), { fallback: <Loading /> });
 // const InvoiceTwo = loadable(() => pMinDelay(import('./page/invoice/invoice-two'), 250), { fallback: <Loading /> });
 const LookBooks = loadable(() => pMinDelay(import('./page/shop/look-book'), 250), { fallback: <Loading /> });
@@ -99,9 +99,9 @@ const App = () => {
             <Route path='/about' exact component={About} />
             <Route path='/product-hover' exact component={ProductHover} />
             <Route path='/order-success' exact component={OrderSuccesses} />
-            <Route path='/email-template-one' exact component={EmailTemplateOnes} />
+            {/* <Route path='/email-template-one' exact component={EmailTemplateOnes} />
             <Route path='/email-template-two' exact component={EmailTemplateTwos} />
-            <Route path='/email-template-three' exact component={EmailTemplateThrees} />
+            <Route path='/email-template-three' exact component={EmailTemplateThrees} /> */}
             {/* <Route path='/invoice-one' exact component={InvoiceOne} />
             <Route path='/invoice-two' exact component={InvoiceTwo} /> */}
             <Route path='/lookbooks' exact component={LookBooks} />
