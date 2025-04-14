@@ -11,7 +11,7 @@ import img4 from '../../../assets/img/furniture/banner/feature4.png'
      return (
        <>
          <section id="furniture_banner_bottom" className="pt-100">
-           <div className="container">
+           <div className="container">  
              <div className="row">
                <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                  <div className="furniture_bottom_wrapper">

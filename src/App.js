@@ -14,8 +14,8 @@ const Furniture = loadable(() => pMinDelay(import('./page/furniture'), 250), { f
 const ShopGrid = loadable(() => pMinDelay(import('./page/shop'), 250), { fallback: <Loading /> });
 const ShopTwo = loadable(() => pMinDelay(import('./page/shop/shop-two'), 250), { fallback: <Loading /> });
 const ShopList = loadable(() => pMinDelay(import('./page/shop/shop-list'), 250), { fallback: <Loading /> });
-const ShopLeftSideBar = loadable(() => pMinDelay(import('./page/shop/shop-left-sidebar'), 250), { fallback: <Loading /> });
-const ShopRightSideBar = loadable(() => pMinDelay(import('./page/shop/shop-right-sidebar'), 250), { fallback: <Loading /> });
+// const ShopLeftSideBar = loadable(() => pMinDelay(import('./page/shop/shop-left-sidebar'), 250), { fallback: <Loading /> });
+// const ShopRightSideBar = loadable(() => pMinDelay(import('./page/shop/shop-right-sidebar'), 250), { fallback: <Loading /> });
 const ProductDetails = loadable(() => pMinDelay(import('./page/product/index'), 250), { fallback: <Loading /> });
 const ProductDetailsTwos = loadable(() => pMinDelay(import('./page/product/product-details-two'), 250), { fallback: <Loading /> });
 const Cart = loadable(() => pMinDelay(import('./page/cart/index'), 250), { fallback: <Loading /> });
@@ -82,8 +82,8 @@ const App = () => {
             <Route path='/shop' exact component={ShopGrid} />
             <Route path='/shopTwo' exact component={ShopTwo} />
             <Route path='/shoplist' exact component={ShopList} />
-            <Route path='/shop-left-bar' exact component={ShopLeftSideBar} />
-            <Route path='/shop-right-bar' exact component={ShopRightSideBar} />
+            {/* <Route path='/shop-left-bar' exact component={ShopLeftSideBar} />
+            <Route path='/shop-right-bar' exact component={ShopRightSideBar} /> */}
             <Route path='/product-details-one/:id' exact component={ProductDetails} />
             <Route path='/product-details-two/:id' exact component={ProductDetailsTwos} />
             <Route path='/cart' exact component={Cart} />
