@@ -25,7 +25,7 @@ const EmptyCarts = loadable(() => pMinDelay(import('./page/cart/empty-cart'), 25
 const CheckoutOne = loadable(() => pMinDelay(import('./page/checkout/index'), 250), { fallback: <Loading /> });
 const CheckoutTwos = loadable(() => pMinDelay(import('./page/checkout/checkout-two'), 250), { fallback: <Loading /> });
 const WishLists = loadable(() => pMinDelay(import('./page/shop/wishList'), 250), { fallback: <Loading /> });
-const Compares = loadable(() => pMinDelay(import('./page/shop/compares'), 250), { fallback: <Loading /> });
+// const Compares = loadable(() => pMinDelay(import('./page/shop/compares'), 250), { fallback: <Loading /> });
 const About = loadable(() => pMinDelay(import('./page/about'), 250), { fallback: <Loading /> });
 const OrderComplete = loadable(() => pMinDelay(import('./page/order/order-complete'), 250), { fallback: <Loading /> });
 const OrderTracking = loadable(() => pMinDelay(import('./page/order/order-tracking'), 250), { fallback: <Loading /> });
@@ -93,7 +93,7 @@ const App = () => {
             <Route path='/checkout-one' exact component={CheckoutOne} />
             <Route path='/checkout-two' exact component={CheckoutTwos} />
             <Route path='/wishlist' exact component={WishLists} />
-            <Route path='/compare' exact component={Compares} />
+            {/* <Route path='/compare' exact component={Compares} /> */}
             <Route path='/order-complete' exact component={OrderComplete} />
             <Route path='/order-tracking' exact component={OrderTracking} />
             <Route path='/about' exact component={About} />
