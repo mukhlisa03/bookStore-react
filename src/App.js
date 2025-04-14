@@ -59,7 +59,7 @@ const Register = loadable(() => pMinDelay(import('./page/register'), 250), { fal
 const Error = loadable(() => pMinDelay(import('./page/error'), 250), { fallback: <Loading /> });
 const PrivacyPolicy = loadable(() => pMinDelay(import('./page/privacy-policy'), 250), { fallback: <Loading /> });
 const Faqs = loadable(() => pMinDelay(import('./page/faqs'), 250), { fallback: <Loading /> });
-const ComingSoon = loadable(() => pMinDelay(import('./page/coming-soon'), 250), { fallback: <Loading /> });
+// const ComingSoon = loadable(() => pMinDelay(import('./page/coming-soon'), 250), { fallback: <Loading /> });
 const ContactOne = loadable(() => pMinDelay(import('./page/contact'), 250), { fallback: <Loading /> });
 const ContactTwo = loadable(() => pMinDelay(import('./page/contact/contact-two'), 250), { fallback: <Loading /> });
 const ScrollToTop = loadable(() => pMinDelay(import('./component/Common/ScrollToTop'), 250), { fallback: <Loading /> });
@@ -126,7 +126,7 @@ const App = () => {
             <Route path='/register' exact component={Register} />
             <Route path='/privacy-policy' exact component={PrivacyPolicy} />
             <Route path='/faqs' exact component={Faqs} />
-            <Route path='/coming-soon' exact component={ComingSoon} />
+            {/* <Route path='/coming-soon' exact component={ComingSoon} /> */}
             <Route path='/contact-one' exact component={ContactOne} />
             <Route path='/contact-two' exact component={ContactTwo} />
             <Route exact component={Error} />
