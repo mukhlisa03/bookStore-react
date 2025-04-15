@@ -28,7 +28,7 @@ const TopHeader = () => {
                     <div className="row">
                         <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                             <div className="top_header_left">
-                                <p>Special collection already available.<Link to="/shop">Read more...</Link></p>
+                                {/* <p>Special collection already available.<Link to="/shop">Read more...</Link></p> */}
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12 col-12">
@@ -36,7 +36,7 @@ const TopHeader = () => {
                                 {
                                     !status ?
                                         <ul className="right_list_fix">
-                                            <li><Link to="/compare"><i className="fa fa-refresh"></i> Compare</Link></li>
+                                            {/* <li><Link to="/compare"><i className="fa fa-refresh"></i> Compare</Link></li> */}
                                             <li><Link to="/login"><i className="fa fa-user"></i> Login</Link></li>
                                             <li><Link to="/register"><i className="fa fa-lock"></i> Register</Link></li>
                                         </ul>
