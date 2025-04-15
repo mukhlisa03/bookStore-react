@@ -40,8 +40,8 @@ const OrderSuccesses = loadable(() => pMinDelay(import('./page/order/order-succe
 const BlogGridThrees = loadable(() => pMinDelay(import('./page/blog/blog-grid-two'), 250), { fallback: <Loading /> });
 const BlogGridTwos = loadable(() => pMinDelay(import('./page/blog/'), 250), { fallback: <Loading /> });
 const BlogListView = loadable(() => pMinDelay(import('./page/blog/blog-list'), 250), { fallback: <Loading /> });
-const BlogSingleOnes = loadable(() => pMinDelay(import('./page/blog/blog-single-one'), 250), { fallback: <Loading /> });
-const BlogSingleTwos = loadable(() => pMinDelay(import('./page/blog/blog-single-two'), 250), { fallback: <Loading /> });
+// const BlogSingleOnes = loadable(() => pMinDelay(import('./page/blog/blog-single-one'), 250), { fallback: <Loading /> });
+// const BlogSingleTwos = loadable(() => pMinDelay(import('./page/blog/blog-single-two'), 250), { fallback: <Loading /> });
 const Vendor = loadable(() => pMinDelay(import('./page/vendor/'), 250), { fallback: <Loading /> });
 const AllProducts = loadable(() => pMinDelay(import('./page/vendor/all-product'), 250), { fallback: <Loading /> });
 const AllOrders = loadable(() => pMinDelay(import('./page/vendor/all-order'), 250), { fallback: <Loading /> });
@@ -108,8 +108,8 @@ const App = () => {
             <Route path='/blog-grid-three' exact component={BlogGridThrees} />
             <Route path='/blog-grid-two' exact component={BlogGridTwos} />
             <Route path='/blog-list-view' exact component={BlogListView} />
-            <Route path='/blog-single-one' exact component={BlogSingleOnes} />
-            <Route path='/blog-single-two' exact component={BlogSingleTwos} />
+            {/* <Route path='/blog-single-one' exact component={BlogSingleOnes} />
+            <Route path='/blog-single-two' exact component={BlogSingleTwos} /> */}
             <Route path='/vendor-dashboard' exact component={Vendor} />
             <Route path='/vendor/all-product' exact component={AllProducts} />
             <Route path='/vendor/all-order' exact component={AllOrders} />
