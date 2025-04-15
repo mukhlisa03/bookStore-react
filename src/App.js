@@ -17,7 +17,7 @@ const ShopList = loadable(() => pMinDelay(import('./page/shop/shop-list'), 250),
 // const ShopLeftSideBar = loadable(() => pMinDelay(import('./page/shop/shop-left-sidebar'), 250), { fallback: <Loading /> });
 // const ShopRightSideBar = loadable(() => pMinDelay(import('./page/shop/shop-right-sidebar'), 250), { fallback: <Loading /> });
 const ProductDetails = loadable(() => pMinDelay(import('./page/product/index'), 250), { fallback: <Loading /> });
-const ProductDetailsTwos = loadable(() => pMinDelay(import('./page/product/product-details-two'), 250), { fallback: <Loading /> });
+// const ProductDetailsTwos = loadable(() => pMinDelay(import('./page/product/product-details-two'), 250), { fallback: <Loading /> });
 const Cart = loadable(() => pMinDelay(import('./page/cart/index'), 250), { fallback: <Loading /> });
 const CartTwo = loadable(() => pMinDelay(import('./page/cart/cart-two'), 250), { fallback: <Loading /> });
 const CartThree = loadable(() => pMinDelay(import('./page/cart/cart-three'), 250), { fallback: <Loading /> });
@@ -85,7 +85,7 @@ const App = () => {
             {/* <Route path='/shop-left-bar' exact component={ShopLeftSideBar} />
             <Route path='/shop-right-bar' exact component={ShopRightSideBar} /> */}
             <Route path='/product-details-one/:id' exact component={ProductDetails} />
-            <Route path='/product-details-two/:id' exact component={ProductDetailsTwos} />
+            {/* <Route path='/product-details-two/:id' exact component={ProductDetailsTwos} /> */}
             <Route path='/cart' exact component={Cart} />
             <Route path='/cartTwo' exact component={CartTwo} />
             <Route path='/cartThree' exact component={CartThree} />
@@ -130,7 +130,7 @@ const App = () => {
             <Route path='/contact-one' exact component={ContactOne} />
             <Route path='/contact-two' exact component={ContactTwo} />
             <Route exact component={Error} />
-          </Switch>
+          </Switch>  
         </Router>
       </BrowserRouter>
 
