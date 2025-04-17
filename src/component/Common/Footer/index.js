@@ -3,7 +3,7 @@ import logo from '../../../assets/img/bh-logo.jpg'
 import payment from '../../../assets/img/common/payment.png'
 import { Link } from 'react-router-dom'
 import Cookie from '../Cookie'
-import NewsletterModal from '../NewsletterModal'
+// import NewsletterModal from '../NewsletterModal'
 import { useSelector } from "react-redux"
 import { useDispatch } from "react-redux";
 import Swal from 'sweetalert2'
