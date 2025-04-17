@@ -11,26 +11,6 @@ export const MenuData = [
                 name: "Furniture",
                 href: "/furniture"
             },
-            {
-                name: "Electronics",
-                href: "/electronics"
-            },
-            {
-                name: "Grocery",
-                href: "/grocery"
-            },
-            {
-                name: "Pharmacy",
-                href: "/pharmacy"
-            },
-            {
-                name: "Jewllary",
-                href: "/jewllary"
-            },
-            {
-                name: "Baby Toys",
-                href: "/baby-toys"
-            },
 
         ]
     },
@@ -104,10 +84,6 @@ export const MenuData = [
                         href: "/wishlist"
                     },
                     {
-                        name: "Compare",
-                        href: "/compare"
-                    },
-                    {
                         name: "Order Tracking",
                         href: "/order-tracking"
                     },
@@ -131,30 +107,6 @@ export const MenuData = [
                 name: "Order Success",
                 href: "/order-success"
             },
-            {
-                name: " Email Template 1",
-                href: "/email-template-one"
-            },
-            {
-                name: "Email Template 2",
-                href: "/email-template-two"
-            },
-            {
-                name: " Email Template 3",
-                href: "/email-template-three"
-            },
-            {
-                name: " LookBook",
-                href: "/lookbooks"
-            },
-            {
-                name: "Invoice 1",
-                href: "/invoice-one"
-            },
-            {
-                name: " Invoice 2",
-                href: "/invoice-two"
-            }
         ]
     },
     {

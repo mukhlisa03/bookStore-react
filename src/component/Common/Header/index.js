@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../../../assets/img/bh-logo.jpg'
-import logoWhite from '../../../assets/img/bh-logo.jpg'
+import logo from "../../../assets/img/bh-l.png";
+import logoWhite from "../../../assets/img/bh-l.png";
 import { MenuData } from './MenuData'
 import NaveItems from './NaveItems'
 import TopHeader from './TopHeader'
@@ -359,9 +359,6 @@ const Header = () => {
                                 <Link to="/wishlist">Wishlist</Link>
                               </li>
                               <li>
-                                <Link to="/compare">Compare</Link>
-                              </li>
-                              <li>
                                 <Link to="/order-tracking">Order Tracking</Link>
                               </li>
                               <li>
@@ -416,12 +413,12 @@ const Header = () => {
                         <li>
                           <Link to="/lookbooks">LookBook</Link>
                         </li>
-                        <li>
+                        {/* <li>
                           <Link to="/invoice-one">Invoice 1</Link>
                         </li>
                         <li>
                           <Link to="/invoice-two">Invoice 2</Link>
-                        </li>
+                        </li> */}
                       </ul>
                     ) : null}
                   </li>
@@ -445,11 +442,11 @@ const Header = () => {
                             Blog Single View One{" "}
                           </Link>
                         </li>
-                        <li>
+                        {/* <li>
                           <Link to="/blog-single-two">
                             Blog Single View TWo
                           </Link>
-                        </li>
+                        </li> */}
                       </ul>
                     ) : null}
                   </li>

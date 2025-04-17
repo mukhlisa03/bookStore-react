@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import logo from '../../../assets/img/bh-logo.jpg'
+import logo from '../../../assets/img/bh-l.png'
 import payment from '../../../assets/img/common/payment.png'
 import { Link } from 'react-router-dom'
 import Cookie from '../Cookie'
