@@ -51,7 +51,7 @@ const MyVerticallyCenteredModal = (props) => {
                                             <h3>{props.data.title}</h3>
                                             <div className="reviews_rating">
                                                 <RatingStar maxScore={5} rating={props.data.rating.rate} id="rating-star-modal" />
-                                                <span>({props.data.rating.count} Customer Reviews)</span>
+                                                <span>({props.data.rating.count} Customer reviews)</span>
                                             </div>
                                             <h4>${props.data.price}.00 <del style={{fontWeight: 400, color: 'gray'}}>${parseInt(props.data.price) + 17}.00</del> </h4>
                                             <p>{props.data.description}</p>
@@ -96,7 +96,7 @@ const MyVerticallyCenteredModal = (props) => {
                                                 </div>
                                             </form>
                                             <div className="modal_share_icons_one">
-                                                <h4>SHARE THIS PRODUCT</h4>
+                                                <h4>SHARE THIS PRODUCTs</h4>
                                                 <div className="posted_icons_one">
                                                     <FacebookShareButton url={"https://themeforest.net/item/andshop-ecommerce-react-js-template/33822003"} quote={"Best React.js ecommerce Templete"}>
                                                         <FacebookIcon size={32} round />

@@ -237,7 +237,7 @@ const Footer = () => {
             </div>
           </div>
         </section>
-        {cookie ? <Cookie accept={acceptCookie} cancel={cancelCookie} /> : null}
+        {/* {cookie ? <Cookie accept={acceptCookie} cancel={cancelCookie} /> : null} */}
         {/* <NewsletterModal
           show={promoCenter}
           stop={stopPromoModal}
