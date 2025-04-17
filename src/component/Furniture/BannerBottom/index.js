@@ -1,10 +1,10 @@
  import React from 'react'
  import { Link } from 'react-router-dom'
 //  import img
-import img1 from '../../../assets/img/furniture/banner/feature1.png'
-import img2 from '../../../assets/img/furniture/banner/feature2.png'
-import img3 from '../../../assets/img/furniture/banner/feature3.png'
-import img4 from '../../../assets/img/furniture/banner/feature4.png'
+import img1 from '../../../assets/img/furniture/banner/LB1.jpg'
+import img2 from '../../../assets/img/furniture/banner/lB2.avif'
+import img3 from '../../../assets/img/furniture/banner/lB1.avif'
+import img4 from '../../../assets/img/furniture/banner/lB3.avif'
 
  
  const BannerBottom = () => {
