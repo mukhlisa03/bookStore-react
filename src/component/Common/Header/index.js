@@ -287,15 +287,15 @@ const Header = () => {
                     </a>
                     {show === "home" ? (
                       <ul className="mobile-sub-menu">
-                        <li>
-                          <Link to="/">Fashion</Link>
-                        </li>
-                        <li>
+                        {/* <li>
+                          <Link to="/">Furniture</Link>
+                        </li> */}
+                        {/* <li>
                           <Link to="/furniture">Furniture</Link>
-                        </li>
-                        <li>
+                        </li> */}
+                        {/* <li>
                           <Link to="/electronics">Electronics</Link>
-                        </li>
+                        </li> */}
                       </ul>
                     ) : null}
                   </li>
@@ -307,32 +307,32 @@ const Header = () => {
                       <>
                         <ul className="mobile-sub-menu">
                           <li>
-                            <a href="#!">Shop Layout</a>
+                            <a href="/shop">Shop</a>
                             <ul className="mobile-sub-menu">
                               <li>
-                                <Link to="/shop">Shop Four Grid</Link>
+                                <Link to="/shop">Shop</Link>
                               </li>
-                              <li>
+                              {/* <li>
                                 <Link to="/shopTwo">Shop Three Grid</Link>
                               </li>
                               <li>
                                 <Link to="/shoplist">Shop List View</Link>
-                              </li>
-                              <li>
+                              </li>  */}
+                              {/* <li>
                                 <Link to="/shop-left-bar">
                                   Shop Left Sidebar
                                 </Link>
-                              </li>
-                              <li>
+                              </li> */}
+                              {/* <li>
                                 <Link to="/shop-right-bar">
                                   Shop Right Sidebar
                                 </Link>
-                              </li>
+                              </li> */}
                             </ul>
                           </li>
                         </ul>
 
-                        <ul className="mobile-sub-menu">
+                        {/* <ul className="mobile-sub-menu">
                           <li>
                             <a href="#!">Shop Pages</a>
                             <ul className="mobile-sub-menu">
@@ -366,7 +366,8 @@ const Header = () => {
                               </li>
                             </ul>
                           </li>
-                        </ul>
+                        </ul> */}
+                        
                         <ul className="mobile-sub-menu">
                           <li>
                             <a href="#!">Product Single</a>
@@ -533,9 +534,9 @@ const Header = () => {
                 <li>
                   <Link to="/cart">Cart</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link to="/checkout-one">Checkout</Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -585,9 +586,9 @@ const Header = () => {
               <li>
                 <Link to="/cart">Cart</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/checkout-one">Checkout</Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
@@ -663,12 +664,12 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link
+                {/* <Link
                   to="/checkout-one"
                   className="theme-btn-one btn-black-overlay btn_md"
                 >
                   Checkout
-                </Link>
+                </Link> */}
               </li>
             </ul>
           </div>

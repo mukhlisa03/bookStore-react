@@ -19,10 +19,10 @@ export const MenuData = [
     mega_menu: true,
     children: [
       {
-        name: "Shop Layouts",
+        name: "Shop",
         children: [
           {
-            name: "Shop Four Grid",
+            name: "Shop",
             href: "/shop",
           },
           // {
@@ -52,7 +52,7 @@ export const MenuData = [
         ],
       },
       {
-        name: "Other Pages",
+        // name: "Other Pages",
         children: [
       //     {
       //       name: "Cart View One",
@@ -78,10 +78,10 @@ export const MenuData = [
           //     name: "Checkout View Two",
           //     href: "/checkout-two"
           // },
-          {
-            name: "Wishlist",
-            href: "/wishlist",
-          },
+          // {
+          //   name: "Wishlist",
+          //   href: "/wishlist",
+          // },
           // {
           //     name: "Order Tracking",
           //     href: "/order-tracking"
