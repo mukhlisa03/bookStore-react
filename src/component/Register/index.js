@@ -18,15 +18,15 @@ const RegisterArea = () => {
         if(status){
             Swal.fire({
                 icon: 'question',
-                title: 'Mr. '+userData.name,
+                title: userData.name,
                 html:
                     'You are already Registered <br />' +
                     'You can go to <b>' +
-                    'Dashboard</b> ' +
+                    // 'Dashboard</b> ' +
                     'or our <b>Shop</b> page',
             }).then((result) => {
                 if(result.isConfirmed) {
-                  history.push('/my-account')
+                  history.push("/shop");
                 } else {
                   // not clicked
                 }
@@ -37,9 +37,9 @@ const RegisterArea = () => {
             Swal.fire({
                 icon: 'success',
                 title: 'Registration Sucessfull',
-                text: 'Welcome Mr.'+user
+                text: 'Welcome '+user
             })
-            history.push("/my-account");
+            history.push("/shop");
         }
         
 

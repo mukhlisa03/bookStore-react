@@ -16,7 +16,7 @@ const FooterData = [
             { linkTitle: "About us", link: "/about" },
             { linkTitle: "Privacy Policy", link: "/privacy-policy" },
             { linkTitle: "Frequently Questions", link: "/faqs" },
-            { linkTitle: "Order Tracking", link: "/order-tracking" },
+            // { linkTitle: "Order Tracking", link: "/order-tracking" },
         ]
     },
     {

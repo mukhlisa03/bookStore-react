@@ -17,7 +17,7 @@ const AccountDetails = () => {
                             </div>
                             <div className="input-radio">
                                 <span className="custom-radio">
-                                    <input type="radio" defaultValue="1" name="mr" checked readOnly /> Mr.</span>
+                                    <input type="radio" defaultValue="1" name="mr" checked readOnly />Welcome</span>
                             </div>
                             <div className="default-form-box mb-20">
                                 <label>First Name</label>

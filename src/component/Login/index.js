@@ -16,15 +16,15 @@ const LoginArea = () => {
         if(status){
             Swal.fire({
                 icon: 'question',
-                title: 'Mr. '+user.name,
+                title: user.name,
                 html:
                     'You are already loged in <br />' +
                     'You can go to <b>' +
-                    'Dashboard</b> ' +
+                    // 'Dashboard</b> ' +
                     'or our <b>Shop</b> page',
             }).then((result) => {
                 if(result.isConfirmed) {
-                  history.push('/my-account')
+                  history.push('/shop')
                 } else {
                   // not clicked
                 }
@@ -38,7 +38,7 @@ const LoginArea = () => {
                 title: 'Login Sucessfully',
                 text: 'Welcome '+ name
             })
-            history.push("/my-account");
+            history.push("/shop");
         }
         
 

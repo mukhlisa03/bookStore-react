@@ -54,22 +54,22 @@ export const MenuData = [
       {
         name: "Other Pages",
         children: [
-          {
-            name: "Cart View One",
-            href: "/cart",
-          },
-          {
-            name: "Cart View Two",
-            href: "/cartTwo",
-          },
+      //     {
+      //       name: "Cart View One",
+      //       href: "/cart",
+      //     },
+      //     {
+      //       name: "Cart View Two",
+      //       href: "/cartTwo",
+      //     },
           // {
           //     name: "Cart View Three",
           //     href: "/cartThree"
           // },
-          {
-            name: "Empty Cart",
-            href: "/empty-cart",
-          },
+          // {
+          //   name: "Empty Cart",
+          //   href: "/empty-cart",
+          // },
           // {
           //     name: "Checkout View One",
           //     href: "/checkout-one"
@@ -86,28 +86,28 @@ export const MenuData = [
           //     name: "Order Tracking",
           //     href: "/order-tracking"
           // },
-          {
-            name: "Order Complete",
-            href: "/order-complete",
-          },
+          // {
+          //   name: "Order Complete",
+          //   href: "/order-complete",
+          // },
         ],
       },
     ],
   },
-  {
-    name: "Feature",
-    href: "#!",
-    children: [
-      {
-        name: "Product Hover",
-        href: "/product-hover",
-      },
-      {
-        name: "Order Success",
-        href: "/order-success",
-      },
-    ],
-  },
+  // {
+  //   name: "Feature",
+  //   href: "#!",
+  //   children: [
+  //     {
+  //       name: "Product Hover",
+  //       href: "/product-hover",
+  //     },
+  //     {
+  //       name: "Order Success",
+  //       href: "/order-success",
+  //     },
+  //   ],
+  // },
   {
     name: "About Us",
     href: "#!",
@@ -135,17 +135,17 @@ export const MenuData = [
     ],
   },
   {
-    name: "Pages",
+    name: "Help",
     href: "#!",
     children: [
-      {
-        name: "Vendor Dashboard",
-        href: "/vendor-dashboard",
-      },
-      {
-        name: "Customer Dashboard",
-        href: "/my-account",
-      },
+      // {
+      //   name: "Vendor Dashboard",
+      //   href: "/vendor-dashboard",
+      // },
+      // {
+      //   name: "Customer Dashboard",
+      //   href: "/my-account",
+      // },
       // {
       //     name: "About Us",
       //     href: "/about"
@@ -170,10 +170,10 @@ export const MenuData = [
         name: "Privacy Policy",
         href: "/privacy-policy",
       },
-      {
-        name: "Login",
-        href: "/login",
-      },
+      // {
+      //   name: "Login",
+      //   href: "/login",
+      // },
       // {
       //     name: "404 Error",
       //     href: "/error"
