@@ -6,7 +6,7 @@ const BlogCard = (props) => {
             <div className="col-lg-6 col-md-6 col-sm-12">
                     <div className="blog_post_wrapper">
                         <div className="blog_post_img">
-                          <Link to="/blog-single-one">
+                          <Link to="/shop">
                               <img src={props.img} alt="img" />
                           </Link>
                           <div className="blog_post_date">
@@ -18,7 +18,7 @@ const BlogCard = (props) => {
                             <div className="right_side_content">
                               <h5>{props.heading}</h5>
                               <p>{props.para}</p>
-                              <Link to="/blog-single-one">{props.button}</Link>
+                              <Link to="/shop">{props.button}</Link>
                             </div>
                         </div>
                       </div>
