@@ -1,10 +1,10 @@
 import React from 'react'
 import Heading from '../Fashion/Heading'
 // import img
-import img1 from '../../assets/img/team/team1.png'
-import img2 from '../../assets/img/team/team2.png'
-import img3 from '../../assets/img/team/team3.png'
-import img4 from '../../assets/img/team/team4.png'
+import img1 from '../../assets/img/team/team1.avif'
+import img2 from '../../assets/img/team/team11.avif'
+import img3 from '../../assets/img/team/msTeam1.jpg'
+import img4 from '../../assets/img/team/MRteam1.avif'
 
 const TeamData =[
     {
@@ -14,7 +14,7 @@ const TeamData =[
     },
     {
         img:img2,
-        name:"Mr. Heroas",
+        name:"Ms. Heroas",
         posation:"Head Of Markating",
     },
     {
@@ -24,7 +24,7 @@ const TeamData =[
     },
     {
         img:img4,
-        name:"Ms. Raka",
+        name:"Mr. Raka",
         posation:"Admin",
     }
 ]

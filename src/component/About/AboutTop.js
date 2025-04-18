@@ -1,6 +1,6 @@
 import React from 'react'
 // import img
-import img1 from '../../assets/img/common/img-about.jpg'
+import img1 from '../../assets/img/common/bheaven77.avif'
 
 const AboutTop = () => {
     return (
