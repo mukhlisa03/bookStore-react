@@ -49,7 +49,7 @@ const PopularProduct = () => {
         <>
         <section id="furniture_popular_product" className="ptb-100">
         <div className="container">
-            <Heading heading={'Popular Product'} />
+            <Heading heading={'Popular Book'} />
             <div className="row">
                 <div className="col-lg-12">
                     <div className="furniture_popular_slider">
