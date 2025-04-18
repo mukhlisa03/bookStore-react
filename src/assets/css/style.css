@@ -308,7 +308,9 @@ ul li {
 }
 
 #common_banner_one {
-    background-image: url('../img/common/common_bg.png');
+    background-image: url('../img/common/shop77.avif');
+    background-position: center;
+    background-size: cover;
     padding: 90px 0;
     background-repeat: no-repeat;
 }
