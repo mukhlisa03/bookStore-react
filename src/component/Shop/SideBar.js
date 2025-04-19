@@ -27,7 +27,7 @@ const SideBar = (props) => {
                         <div className="shop_Search">
                             <form>
                                 <input type="text" className="form-control" placeholder="Search..." onKeyUp={() => {props.filterEvent(1)}} />
-                                <button><img src={search} alt="img" /></button>
+                                {/* <button><img src={search} alt="img" /></button> */}
                             </form>
                         </div>
                         <div className="shop_sidebar_boxed">
