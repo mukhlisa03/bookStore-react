@@ -5,7 +5,7 @@ import Loading from './component/Common/loader';
 import pMinDelay from 'p-min-delay';
 
 // All Page Lazy Import
-const Furniture = loadable(() => pMinDelay(import('./page/furniture'), 250), { fallback: <Loading /> });
+// const Furniture = loadable(() => pMinDelay(import('./page/furniture'), 250), { fallback: <Loading /> });
 // const Electronics = loadable(() => pMinDelay(import('./page/electronics'), 250), { fallback: <Loading /> });
 // const Grocery = loadable(() => pMinDelay(import('./page/grocery'), 250), { fallback: <Loading /> });
 // const Pharmacy = loadable(() => pMinDelay(import('./page/pharmacy'), 250), { fallback: <Loading /> });
@@ -61,9 +61,11 @@ const PrivacyPolicy = loadable(() => pMinDelay(import('./page/privacy-policy'), 
 const Faqs = loadable(() => pMinDelay(import('./page/faqs'), 250), { fallback: <Loading /> });
 // const ComingSoon = loadable(() => pMinDelay(import('./page/coming-soon'), 250), { fallback: <Loading /> });
 const ContactOne = loadable(() => pMinDelay(import('./page/contact'), 250), { fallback: <Loading /> });
-const ContactTwo = loadable(() => pMinDelay(import('./page/contact/contact-two'), 250), { fallback: <Loading /> });
+// const ContactTwo = loadable(() => pMinDelay(import('./page/contact/contact-two'), 250), { fallback: <Loading /> });
 const ScrollToTop = loadable(() => pMinDelay(import('./component/Common/ScrollToTop'), 250), { fallback: <Loading /> });
 const Fashion = loadable(() => pMinDelay(import('./page/'), 250), { fallback: <Loading /> });
+const Furniture = loadable(() => pMinDelay(import('./page/furniture'), 250), { fallback: <Loading /> });
+
 
 const App = () => {
   return (
@@ -72,8 +74,8 @@ const App = () => {
         <Router>
           <ScrollToTop />
           <Switch>
-            <Route path='/' exact component={Fashion} />
-            <Route path='/furniture' exact component={Furniture} />
+            <Route path='/' exact component={Furniture} />
+            <Route path='/fashion' exact component={Fashion} />
             {/* <Route path='/electronics' exact component={Electronics} /> */}
             {/* <Route path='/grocery' exact component={Grocery} /> */}
             {/* <Route path='/pharmacy' exact component={Pharmacy} /> */}
@@ -128,7 +130,7 @@ const App = () => {
             <Route path='/faqs' exact component={Faqs} />
             {/* <Route path='/coming-soon' exact component={ComingSoon} /> */}
             <Route path='/contact-one' exact component={ContactOne} />
-            <Route path='/contact-two' exact component={ContactTwo} />
+            {/* <Route path='/contact-two' exact component={ContactTwo} /> */}
             <Route exact component={Error} />
           </Switch>  
         </Router>

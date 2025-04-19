@@ -282,14 +282,14 @@ const Header = () => {
               <div className="offcanvas-menu">
                 <ul>
                   <li>
-                    <a href="#!" onClick={() => handleShow("home")}>
+                    <a href="/" onClick={() => handleShow("home")}>
                       <span>Home</span>
                     </a>
                     {show === "home" ? (
                       <ul className="mobile-sub-menu">
-                        {/* <li>
+                        <li>
                           <Link to="/">Furniture</Link>
-                        </li> */}
+                        </li>
                         {/* <li>
                           <Link to="/furniture">Furniture</Link>
                         </li> */}

@@ -4,13 +4,13 @@ export const MenuData = [
     href: "/furniture",
     children: [
       {
-        name: "Fashion",
+        name: "home",
         href: "/",
       },
-      {
-        name: "Furniture",
-        href: "/furniture",
-      },
+      // {
+      //   name: "Furniture",
+      //   href: "/furniture",
+      // },
     ],
   },
   {
@@ -154,10 +154,10 @@ export const MenuData = [
         name: "Contact Us One",
         href: "/contact-one",
       },
-      {
-        name: "Contact Us Two",
-        href: "/contact-two",
-      },
+      // {
+      //   name: "Contact Us Two",
+      //   href: "/contact-two",
+      // },
       {
         name: "Frequently Questions",
         href: "/faqs",
