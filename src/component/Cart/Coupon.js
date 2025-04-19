@@ -5,7 +5,7 @@ const Coupon = () => {
     return (
         <>
             <div className="col-lg-6 col-md-6">
-                <div className="coupon_code left">
+                {/* <div className="coupon_code left">
                     <h3>Coupon</h3>
                     <div className="coupon_inner">
                         <p>Enter your coupon code if you have one.</p>
@@ -14,7 +14,7 @@ const Coupon = () => {
                             <button type="submit" className="theme-btn-one btn-black-overlay btn_sm">Apply coupon</button>
                         </form>
                     </div>
-                </div>
+                </div> */}
             </div>
         </>
     )
