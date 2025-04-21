@@ -13,7 +13,7 @@ const TotalCart = (props) => {
     return (
       <>
         {props.fullGrid ? (
-          <div className="col-lg-12 col-md-12">
+          <div className="col-lg-12 col-md-12"> 
             <div className="coupon_code right">
               <h3>Cart Total</h3>
               <div className="coupon_inner">

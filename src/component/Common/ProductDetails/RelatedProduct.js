@@ -6,7 +6,7 @@ const RelatedProduct = () => {
     let products = useSelector((state) => state.products.products);
     return (
         <>
-            <section id="related_product" className="pb-100">
+            {/* <section id="related_product" className="pb-100">
                 <div className="container">
                     <Heading heading="You Might Also Like" para="Mauris luctus nisi sapien tristique dignissim ornare" />
                     <div className="row">
@@ -17,7 +17,7 @@ const RelatedProduct = () => {
                         ))}
                     </div>
                 </div>
-            </section>
+            </section> */}
         </>
     )
 }

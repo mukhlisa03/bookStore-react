@@ -25,9 +25,9 @@ const ProductDetailsOne = () => {
     }
 
     // Add to Compare
-    const addToComp = async (id) => {
-        dispatch({ type: "products/addToComp", payload: { id } })
-    }
+    // const addToComp = async (id) => {
+    //     dispatch({ type: "products/addToComp", payload: { id } })
+    // }
 
     const colorSwatch = (i) => {
         let data = product.color.find(item => item.color === i)
@@ -66,22 +66,22 @@ const ProductDetailsOne = () => {
                                     <h3>{product.title}</h3>
                                     <div className="reviews_rating">
                                         <RatingStar maxScore={5} rating={product.rating.rate} id="rating-star-common" />
-                                        <span>({product.rating.count} Customer Reviews)</span>
+                                        {/* <span>({product.rating.count} Customer Reviews)</span> */}
                                     </div>
                                     <h4>${product.price}.00 <del>${parseInt(product.price) + 17}.00</del> </h4>
                                     <p>{product.description}</p>
                                     <div className="customs_selects">
-                                        <select name="product" className="customs_sel_box">
+                                        {/* <select name="product" className="customs_sel_box">
                                             <option value="volvo">Size</option>
                                             <option value="xl">XL</option>
                                             <option value="small">S</option>
                                             <option value="medium">M</option>
                                             <option value="learz">L</option>
-                                        </select>
+                                        </select> */}
                                     </div>
                                     <div className="variable-single-item">
-                                        <span>Color</span>
-                                        <div className="product-variable-color">
+                                        {/* <span>Color</span> */}
+                                        {/* <div className="product-variable-color">
                                             <label htmlFor="modal-product-color-red1">
                                                 <input name="modal-product-color" id="modal-product-color-red1"
                                                     className="color-select" type="radio" onChange={() => { colorSwatch('red') }} defaultChecked/>
@@ -97,7 +97,7 @@ const ProductDetailsOne = () => {
                                                     className="color-select" type="radio" onChange={() => { colorSwatch('blue') }} />
                                                 <span className="product-color-blue"></span>
                                             </label>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     <form id="product_count_form_two">
                                         <div className="product_count_one">
@@ -122,10 +122,10 @@ const ProductDetailsOne = () => {
                                                 <a href="#!" className="action wishlist" title="Wishlist" onClick={() => addToFav(product.id)}><i
                                                     className="fa fa-heart"></i>Add To Wishlist</a>
                                             </li>
-                                            <li>
+                                            {/* <li>
                                                 <a href="#!" className="action compare" onClick={() => addToComp(product.id)} title="Compare"><i
                                                     className="fa fa-exchange"></i>Add To Compare</a>
-                                            </li>
+                                            </li> */}
                                         </ul>
                                         <a href="#!" className="theme-btn-one btn-black-overlay btn_sm" onClick={() => addToCart(product.id)}>Add To Cart</a>
                                     </div>

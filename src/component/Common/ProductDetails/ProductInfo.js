@@ -53,7 +53,7 @@ const ProductInfo = () => {
                         <ul className="nav nav-tabs">
                             <li><a data-toggle="tab" href="#description" className="active">Description</a></li>
                             <li><a data-toggle="tab" href="#additional">Additional Information</a></li>
-                            <li><a data-toggle="tab" href="#review">Review</a></li>
+                            {/* <li><a data-toggle="tab" href="#review">Review</a></li> */}
                         </ul>
                         <div className="tab-content">
                             <div id="description" className="tab-pane fade in show active">
