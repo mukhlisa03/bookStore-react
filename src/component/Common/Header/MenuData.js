@@ -15,11 +15,11 @@ export const MenuData = [
   },
   {
     name: "Shop",
-    href: "#!",
+    href: "/shop",
     mega_menu: true,
     children: [
       {
-        name: "Shop",
+        // name: "Shop",
         children: [
           {
             name: "Shop",

@@ -24,13 +24,13 @@ const NaveItems = (props) => {
                                 </li>
 
                             ))}
-                            <li className="mega-menu-item">
+                            {/* <li className="mega-menu-item">
                                 <div className="menu-banner">
                                     <Link to="/shop" className="menu-banner-link">
                                         <img className="menu-banner-img" src={banner} alt="img" />
                                     </Link>
                                 </div>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </li>
