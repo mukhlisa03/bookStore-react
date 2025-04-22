@@ -19,7 +19,6 @@ const NaveItems = (props) => {
                                         {item.children.map((datas, index) => (
                                             <li key={index}><Link to={datas.href}>{datas.name}</Link></li>
                                         ))}
-
                                     </ul>
                                 </li>
 

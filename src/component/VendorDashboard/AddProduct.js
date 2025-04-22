@@ -26,7 +26,7 @@ const AddProduct = () => {
                                         </div>
                                         <div className="col-lg-6">
                                             <div className="fotm-group">
-                                                <label htmlFor="product_name">Product Name<span className="text-danger">*</span></label>
+                                                <label htmlFor="product_name">Book Name<span className="text-danger">*</span></label>
                                                 <input type="text" id="product_name" className="form-control"
                                                     placeholder="Product Title here" required />
                                             </div>
