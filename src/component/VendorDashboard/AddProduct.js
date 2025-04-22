@@ -12,7 +12,7 @@ const AddProduct = () => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="add_product_wrapper">
-                                <h4>Add Product</h4>
+                                <h4>Add Book</h4>
                                 <form className="add_product_form" onSubmit={(e)=> {e.preventDefault();Swal.fire('Success','Product Successfully Added', 'success'); history.push('/shop')}}>
                                     <div className="row">
                                         <div className="col-lg-12">
@@ -28,18 +28,18 @@ const AddProduct = () => {
                                             <div className="fotm-group">
                                                 <label htmlFor="product_name">Book Name<span className="text-danger">*</span></label>
                                                 <input type="text" id="product_name" className="form-control"
-                                                    placeholder="Product Title here" required />
+                                                    placeholder="" required />
                                             </div>
                                         </div>
                                         <div className="col-lg-6">
                                             <div className="fotm-group">
-                                                <label htmlFor="product_price">Product Price<span className="text-danger">*</span></label>
-                                                <input type="number" id="product_price" className="form-control" placeholder="Product Price" required />
+                                                <label htmlFor="product_price">Book Price<span className="text-danger">*</span></label>
+                                                <input type="number" id="product_price" className="form-control" placeholder="" required />
                                             </div>
                                         </div>
                                         <div className="col-lg-6">
                                             <div className="fotm-group">
-                                                <label htmlFor="product_unit">Product Unit<span className="text-danger">*</span></label>
+                                                <label htmlFor="product_unit">Book Unit<span className="text-danger">*</span></label>
                                                 <select name="product" id="product_unit" required>
                                                     <option value="Filter">Filter</option>
                                                     <option value="volvo">Most Popular</option>
@@ -51,23 +51,23 @@ const AddProduct = () => {
                                         </div>
                                         <div className="col-lg-6">
                                             <div className="fotm-group">
-                                                <label htmlFor="product_available">Product Available From<span className="text-danger">*</span></label>
-                                                <input type="date" id="product_available" className="form-control" required/>
+                                                <label htmlFor="book-language">Book Language<span className="text-danger">*</span></label>
+                                                <input type="text" id="book-language" className="form-control" required/>
                                             </div>
                                         </div>
                                         <div className="col-lg-6">
                                             <div className="fotm-group">
-                                                <label htmlFor="estimate_available">Estimate Available For Days<span className="text-danger">*</span></label>
-                                                <input type="number" id="estimate_available" className="form-control"
-                                                    placeholder="12"required />
+                                                <label htmlFor="estimate_available">Book Author<span className="text-danger">*</span></label>
+                                                <input type="text" id="estimate_available" className="form-control"
+                                                    placeholder=""required />
                                             </div>
                                         </div>
-                                        <div className="col-lg-6">
+                                        {/* <div className="col-lg-6">
                                             <div className="fotm-group">
                                                 <label htmlFor="available_stock">Available Stock (Quantity)<span className="text-danger">*</span></label>
                                                 <input type="number" id="available_stock" className="form-control" placeholder="45"required />
                                             </div>
-                                        </div>
+                                        </div> */}
                                         <div className="col-lg-6">
                                             <div className="fotm-group">
                                                 <label htmlFor="whole_sale">Whole Sale Support<span className="text-danger">*</span></label>
@@ -97,7 +97,7 @@ const AddProduct = () => {
                                         </div>
                                         <div className="col-lg-12">
                                             <div className="btn_right_table">
-                                                <button className="theme-btn-one bg-black btn_sm">Add Product</button>
+                                                <button className="theme-btn-one bg-black btn_sm">Add Book</button>
                                             </div>
                                         </div>
 
