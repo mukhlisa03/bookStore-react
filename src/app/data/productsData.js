@@ -23,16 +23,16 @@ import imgf9 from '../../assets/img/furniture/product/9.jpg'
 import imgf10 from '../../assets/img/furniture/product/10.jpg'
 
 // electronics img 
-import imge1 from '../../assets/img/electronics/product/1.jpg'
-import imge2 from '../../assets/img/electronics/product/2.jpg'
-import imge3 from '../../assets/img/electronics/product/3.jpg'
-import imge4 from '../../assets/img/electronics/product/4.jpg'
-import imge5 from '../../assets/img/electronics/product/5.jpg'
-import imge6 from '../../assets/img/electronics/product/6.jpg'
-import imge7 from '../../assets/img/electronics/product/7.jpg'
-import imge8 from '../../assets/img/electronics/product/8.jpg'
-import imge9 from '../../assets/img/electronics/product/9.jpg'
-import imge10 from '../../assets/img/electronics/product/10.jpg'
+// import imge1 from '../../assets/img/electronics/product/1.jpg'
+// import imge2 from '../../assets/img/electronics/product/2.jpg'
+// import imge3 from '../../assets/img/electronics/product/3.jpg'
+// import imge4 from '../../assets/img/electronics/product/4.jpg'
+// import imge5 from '../../assets/img/electronics/product/5.jpg'
+// import imge6 from '../../assets/img/electronics/product/6.jpg'
+// import imge7 from '../../assets/img/electronics/product/7.jpg'
+// import imge8 from '../../assets/img/electronics/product/8.jpg'
+// import imge9 from '../../assets/img/electronics/product/9.jpg'
+// import imge10 from '../../assets/img/electronics/product/10.jpg'
 
 // pharmacy img 
 // import Pro1 from '../../assets/img/pharmacy/product/pro-1.png'
@@ -687,476 +687,477 @@ export const ProductData = [
             },
         ]
     },
+    
     // category data
-    {
-        id: 21,
-        labels: "New",
-        category: "electronics",
-        img: imge1,
-        hover_img: imge10,
-        title: "Movie Projector HD Outdoor",
-        price: 334,
-        description: `BIG SCREEN HOME THEATER：2021 technology features higher color contrast,full HD 1080P supported.
-        Image is brighter and sharper.Up to 200-inches projection size,equipped built-in 10 Watts audio original fidelity stereo.`,
-        rating: {
-            rate: 4.9,
-            count: 20
-        },
-        color: [
-            {
-                color: "green",
-                img: imge2,
-                quantity: 1,
-            },
-            {
-                color: "red",
-                img: imge3,
-                quantity: 1,
-            },
-            {
-                color: "blue",
-                img: imge4,
-                quantity: 1,
-            },
-        ]
-    },
-    {
-        id: 22,
-        labels: "Hot",
-        category: "electronics",
-        img: imge2,
-        hover_img: imge9,
-        title: "Bopmen T3 Ear Headphones",
-        price: 714,
-        description: `The wideband frequency range – spanning 20Hz to 20kHz – is designed for today’s bass-heavy music. 
-        The 20Hz low end of the frequency range picks up every powerful sub-bass note, while at the 20kHz high-end, you’ll be 
-        able to enjoy vocal melodies in outstanding clarity`,
-        rating: {
-            rate: 2.9,
-            count: 120
-        },
-        color: [
-            {
-                color: "green",
-                img: imge5,
-                quantity: 1,
-            },
-            {
-                color: "red",
-                img: imge6,
-                quantity: 1,
-            },
-            {
-                color: "blue",
-                img: imge7,
-                quantity: 1,
-            },
-        ]
-    },
-    {
-        id: 23,
-        labels: "New Arrival",
-        category: "electronics",
-        img: imge3,
-        hover_img: imge8,
-        title: "Belkin Boost Up Power Pack",
-        price: 344,
-        description: `Introducing a compact, portable power bank designed exclusively for Apple Watch. With the power to add up 
-        to 63 hours of battery life, you can stay charged for days without needing to bring a wall charger.*Perfect for travel and on-the-go, 
-        this Apple Watch power bank allows you to track your fitness goals, use Apple Pay, and receive notifications from anywhere.`,
-        rating: {
-            rate: 1.9,
-            count: 10
-        },
-        color: [
-            {
-                color: "green",
-                img: imge8,
-                quantity: 1,
-            },
-            {
-                color: "red",
-                img: imge9,
-                quantity: 1,
-            },
-            {
-                color: "blue",
-                img: imge10,
-                quantity: 1,
-            },
-        ]
-    },
-    {
-        id: 24,
-        labels: "New",
-        category: "electronics",
-        img: imge4,
-        hover_img: imge7,
-        title: "Fossil Men's Quartz Watch",
-        price: 1044,
-        description: `Fossil has always been inspired by American creativity and ingenuity. 
-        Since 1984, we’ve strived to bring new life into the industry by making quality,
-         fashionable watches and accessories that were both fun and accessible.`,
-        rating: {
-            rate: 3.9,
-            count: 100
-        },
-        color: [
-            {
-                color: "green",
-                img: imge1,
-                quantity: 1,
-            },
-            {
-                color: "red",
-                img: imge2,
-                quantity: 1,
-            },
-            {
-                color: "blue",
-                img: imge3,
-                quantity: 1,
-            },
-        ]
-    },
-    {
-        id: 25,
-        labels: "Hot",
-        category: "electronics",
-        img: imge5,
-        hover_img: imge6,
-        title: "Powerbeats Pro Wireless Earbuds",
-        price: 344,
-        description: `Up to 9 hours of listening time (more than 24 hours with charge case)
-        Adjustable, secure-fit ear hooks for lightweight comfort, stability
-        Reinforced design for sweat and water resistance during tough workouts and running
-        Protect your Beats with AppleCare+ - Add AppleCare+ to your order and receive accidental damage`,
-        rating: {
-            rate: 2.9,
-            count: 610
-        },
-        color: [
-            {
-                color: "green",
-                img: imge4,
-                quantity: 1,
-            },
-            {
-                color: "red",
-                img: imge5,
-                quantity: 1,
-            },
-            {
-                color: "blue",
-                img: imge6,
-                quantity: 1,
-            },
-        ]
-    },
-    {
-        id: 26,
-        labels: "New Arrival",
-        category: "electronics",
-        img: imge6,
-        hover_img: imge5,
-        title: "New Apple AirPods Max",
-        price: 944,
-        description: `Apple-designed dynamic driver provides high-fidelity audio﻿
-        Active Noise Cancellation blocks outside noise, so you can immerse yourself in music﻿
-        Transparency mode for hearing and interacting with the world around you﻿
-        Spatial audio with dynamic head tracking provides theater-like sound that surrounds you﻿`,
-        rating: {
-            rate: 4.9,
-            count: 1110
-        },
-        color: [
-            {
-                color: "green",
-                img: imge7,
-                quantity: 1,
-            },
-            {
-                color: "red",
-                img: imge8,
-                quantity: 1,
-            },
-            {
-                color: "blue",
-                img: imge9,
-                quantity: 1,
-            },
-        ]
-    },
-    {
-        id: 27,
-        labels: "20% OFF",
-        category: "electronics",
-        img: imge7,
-        hover_img: imge4,
-        title: "Fire HD 10 Tablet – White",
-        price: 144,
-        description: `10.1" 1080p full HD display; 32 or 64 GB of internal storage (add up to 512 GB with microSD)
-        Now 30% faster thanks to the new 2.0 GHz octa-core processor and 2 GB of RAM
-        Longer battery life—Up to 12 hours of reading, browsing the web, watching video, and listening to music`,
-        rating: {
-            rate: 1.9,
-            count: 10
-        },
-        color: [
-            {
-                color: "green",
-                img: imge10,
-                quantity: 1,
-            },
-            {
-                color: "red",
-                img: imge1,
-                quantity: 1,
-            },
-            {
-                color: "blue",
-                img: imge2,
-                quantity: 1,
-            },
-        ]
-    },
-    {
-        id: 28,
-        labels: "20% OFF",
-        category: "electronics",
-        img: imge8,
-        hover_img: imge3,
-        title: "New Apple AirPods Max",
-        price: 544,
-        description: `Apple-designed dynamic driver provides high-fidelity audio﻿
-        Active Noise Cancellation blocks outside noise, so you can immerse yourself in music﻿
-        Transparency mode for hearing and interacting with the world around you﻿
-        Spatial audio with dynamic head tracking provides theater-like sound that surrounds you﻿`,
-        rating: {
-            rate: 3.9,
-            count: 2510
-        },
-        color: [
-            {
-                color: "green",
-                img: imge3,
-                quantity: 1,
-            },
-            {
-                color: "red",
-                img: imge4,
-                quantity: 1,
-            },
-            {
-                color: "blue",
-                img: imge5,
-                quantity: 1,
-            },
-        ]
-    },
-    {
-        id: 29,
-        labels: "20% OFF",
-        category: "electronics",
-        img: imge9,
-        hover_img: imge2,
-        title: "Canon PowerShot Digital Camera",
-        price: 544,
-        description: `Powerful 42x Optical Zoom with Optical Image Stabilizer for outstanding optical performance
-        Aspect Ratio: 16:9/3:2/4:3/1:1. Built-in Wi-Fi and NFC allows for easy sharing and transferring of images and videos.
-        20.0 Megapixel sensor with DIGIC 4+ Image Processor helps deliver stunning image quality and approx number 
-        of shots recordable to 16 GB memory card`,
-        rating: {
-            rate: 2.9,
-            count: 910
-        },
-        color: [
-            {
-                color: "green",
-                img: imge6,
-                quantity: 1,
-            },
-            {
-                color: "red",
-                img: imge7,
-                quantity: 1,
-            },
-            {
-                color: "blue",
-                img: imge8,
-                quantity: 1,
-            },
-        ]
-    },
-    {
-        id: 30,
-        labels: "20% OFF",
-        category: "electronics",
-        // img: imge10,
-        // hover_img: imge1,
-        title: "Apple EarPods with Lightning",
-        price: 544,
-        description: `Unlike traditional, circular earbuds, the design of the EarPods is defined by the geometry of the ear which 
-        makes them more comfortable for more people than any other earbud-style headphones
-        The speakers inside the EarPods have been engineered to maximize sound output and minimize
-         sound loss, which means you get high-quality audio`,
-        rating: {
-            rate: 4.9,
-            count: 510
-        },
-        color: [
-            {
-                color: "green",
-                // img: imge9,
-                quantity: 1,
-            },
-            {
-                color: "red",
-                // img: imge10,
-                quantity: 1,
-            },
-            {
-                color: "blue",
-                // img: imge1,
-                quantity: 1,
-            },
-        ]
-    },
+    // {
+    //     id: 21,
+    //     labels: "New",
+    //     category: "electronics",
+    //     img: imge1,
+    //     hover_img: imge10,
+    //     title: "Movie Projector HD Outdoor",
+    //     price: 334,
+    //     description: `BIG SCREEN HOME THEATER：2021 technology features higher color contrast,full HD 1080P supported.
+    //     Image is brighter and sharper.Up to 200-inches projection size,equipped built-in 10 Watts audio original fidelity stereo.`,
+    //     rating: {
+    //         rate: 4.9,
+    //         count: 20
+    //     },
+    //     color: [
+    //         {
+    //             color: "green",
+    //             img: imge2,
+    //             quantity: 1,
+    //         },
+    //         {
+    //             color: "red",
+    //             img: imge3,
+    //             quantity: 1,
+    //         },
+    //         {
+    //             color: "blue",
+    //             img: imge4,
+    //             quantity: 1,
+    //         },
+    //     ]
+    // },
+    // {
+    //     id: 22,
+    //     labels: "Hot",
+    //     category: "electronics",
+    //     img: imge2,
+    //     hover_img: imge9,
+    //     title: "Bopmen T3 Ear Headphones",
+    //     price: 714,
+    //     description: `The wideband frequency range – spanning 20Hz to 20kHz – is designed for today’s bass-heavy music. 
+    //     The 20Hz low end of the frequency range picks up every powerful sub-bass note, while at the 20kHz high-end, you’ll be 
+    //     able to enjoy vocal melodies in outstanding clarity`,
+    //     rating: {
+    //         rate: 2.9,
+    //         count: 120
+    //     },
+    //     color: [
+    //         {
+    //             color: "green",
+    //             img: imge5,
+    //             quantity: 1,
+    //         },
+    //         {
+    //             color: "red",
+    //             img: imge6,
+    //             quantity: 1,
+    //         },
+    //         {
+    //             color: "blue",
+    //             img: imge7,
+    //             quantity: 1,
+    //         },
+    //     ]
+    // },
+    // {
+    //     id: 23,
+    //     labels: "New Arrival",
+    //     category: "electronics",
+    //     img: imge3,
+    //     hover_img: imge8,
+    //     title: "Belkin Boost Up Power Pack",
+    //     price: 344,
+    //     description: `Introducing a compact, portable power bank designed exclusively for Apple Watch. With the power to add up 
+    //     to 63 hours of battery life, you can stay charged for days without needing to bring a wall charger.*Perfect for travel and on-the-go, 
+    //     this Apple Watch power bank allows you to track your fitness goals, use Apple Pay, and receive notifications from anywhere.`,
+    //     rating: {
+    //         rate: 1.9,
+    //         count: 10
+    //     },
+    //     color: [
+    //         {
+    //             color: "green",
+    //             img: imge8,
+    //             quantity: 1,
+    //         },
+    //         {
+    //             color: "red",
+    //             img: imge9,
+    //             quantity: 1,
+    //         },
+    //         {
+    //             color: "blue",
+    //             img: imge10,
+    //             quantity: 1,
+    //         },
+    //     ]
+    // },
+    // {
+    //     id: 24,
+    //     labels: "New",
+    //     category: "electronics",
+    //     img: imge4,
+    //     hover_img: imge7,
+    //     title: "Fossil Men's Quartz Watch",
+    //     price: 1044,
+    //     description: `Fossil has always been inspired by American creativity and ingenuity. 
+    //     Since 1984, we’ve strived to bring new life into the industry by making quality,
+    //      fashionable watches and accessories that were both fun and accessible.`,
+    //     rating: {
+    //         rate: 3.9,
+    //         count: 100
+    //     },
+    //     color: [
+    //         {
+    //             color: "green",
+    //             img: imge1,
+    //             quantity: 1,
+    //         },
+    //         {
+    //             color: "red",
+    //             img: imge2,
+    //             quantity: 1,
+    //         },
+    //         {
+    //             color: "blue",
+    //             img: imge3,
+    //             quantity: 1,
+    //         },
+    //     ]
+    // },
+    // {
+    //     id: 25,
+    //     labels: "Hot",
+    //     category: "electronics",
+    //     img: imge5,
+    //     hover_img: imge6,
+    //     title: "Powerbeats Pro Wireless Earbuds",
+    //     price: 344,
+    //     description: `Up to 9 hours of listening time (more than 24 hours with charge case)
+    //     Adjustable, secure-fit ear hooks for lightweight comfort, stability
+    //     Reinforced design for sweat and water resistance during tough workouts and running
+    //     Protect your Beats with AppleCare+ - Add AppleCare+ to your order and receive accidental damage`,
+    //     rating: {
+    //         rate: 2.9,
+    //         count: 610
+    //     },
+    //     color: [
+    //         {
+    //             color: "green",
+    //             img: imge4,
+    //             quantity: 1,
+    //         },
+    //         {
+    //             color: "red",
+    //             img: imge5,
+    //             quantity: 1,
+    //         },
+    //         {
+    //             color: "blue",
+    //             img: imge6,
+    //             quantity: 1,
+    //         },
+    //     ]
+    // },
+    // {
+    //     id: 26,
+    //     labels: "New Arrival",
+    //     category: "electronics",
+    //     img: imge6,
+    //     hover_img: imge5,
+    //     title: "New Apple AirPods Max",
+    //     price: 944,
+    //     description: `Apple-designed dynamic driver provides high-fidelity audio﻿
+    //     Active Noise Cancellation blocks outside noise, so you can immerse yourself in music﻿
+    //     Transparency mode for hearing and interacting with the world around you﻿
+    //     Spatial audio with dynamic head tracking provides theater-like sound that surrounds you﻿`,
+    //     rating: {
+    //         rate: 4.9,
+    //         count: 1110
+    //     },
+    //     color: [
+    //         {
+    //             color: "green",
+    //             img: imge7,
+    //             quantity: 1,
+    //         },
+    //         {
+    //             color: "red",
+    //             img: imge8,
+    //             quantity: 1,
+    //         },
+    //         {
+    //             color: "blue",
+    //             img: imge9,
+    //             quantity: 1,
+    //         },
+    //     ]
+    // },
+    // {
+    //     id: 27,
+    //     labels: "20% OFF",
+    //     category: "electronics",
+    //     img: imge7,
+    //     hover_img: imge4,
+    //     title: "Fire HD 10 Tablet – White",
+    //     price: 144,
+    //     description: `10.1" 1080p full HD display; 32 or 64 GB of internal storage (add up to 512 GB with microSD)
+    //     Now 30% faster thanks to the new 2.0 GHz octa-core processor and 2 GB of RAM
+    //     Longer battery life—Up to 12 hours of reading, browsing the web, watching video, and listening to music`,
+    //     rating: {
+    //         rate: 1.9,
+    //         count: 10
+    //     },
+    //     color: [
+    //         {
+    //             color: "green",
+    //             img: imge10,
+    //             quantity: 1,
+    //         },
+    //         {
+    //             color: "red",
+    //             img: imge1,
+    //             quantity: 1,
+    //         },
+    //         {
+    //             color: "blue",
+    //             img: imge2,
+    //             quantity: 1,
+    //         },
+    //     ]
+    // },
+    // {
+    //     id: 28,
+    //     labels: "20% OFF",
+    //     category: "electronics",
+    //     img: imge8,
+    //     hover_img: imge3,
+    //     title: "New Apple AirPods Max",
+    //     price: 544,
+    //     description: `Apple-designed dynamic driver provides high-fidelity audio﻿
+    //     Active Noise Cancellation blocks outside noise, so you can immerse yourself in music﻿
+    //     Transparency mode for hearing and interacting with the world around you﻿
+    //     Spatial audio with dynamic head tracking provides theater-like sound that surrounds you﻿`,
+    //     rating: {
+    //         rate: 3.9,
+    //         count: 2510
+    //     },
+    //     color: [
+    //         {
+    //             color: "green",
+    //             img: imge3,
+    //             quantity: 1,
+    //         },
+    //         {
+    //             color: "red",
+    //             img: imge4,
+    //             quantity: 1,
+    //         },
+    //         {
+    //             color: "blue",
+    //             img: imge5,
+    //             quantity: 1,
+    //         },
+    //     ]
+    // },
+    // {
+    //     id: 29,
+    //     labels: "20% OFF",
+    //     category: "electronics",
+    //     img: imge9,
+    //     hover_img: imge2,
+    //     title: "Canon PowerShot Digital Camera",
+    //     price: 544,
+    //     description: `Powerful 42x Optical Zoom with Optical Image Stabilizer for outstanding optical performance
+    //     Aspect Ratio: 16:9/3:2/4:3/1:1. Built-in Wi-Fi and NFC allows for easy sharing and transferring of images and videos.
+    //     20.0 Megapixel sensor with DIGIC 4+ Image Processor helps deliver stunning image quality and approx number 
+    //     of shots recordable to 16 GB memory card`,
+    //     rating: {
+    //         rate: 2.9,
+    //         count: 910
+    //     },
+    //     color: [
+    //         {
+    //             color: "green",
+    //             img: imge6,
+    //             quantity: 1,
+    //         },
+    //         {
+    //             color: "red",
+    //             img: imge7,
+    //             quantity: 1,
+    //         },
+    //         {
+    //             color: "blue",
+    //             img: imge8,
+    //             quantity: 1,
+    //         },
+    //     ]
+    // },
+    // {
+    //     id: 30,
+    //     labels: "20% OFF",
+    //     category: "electronics",
+    //     // img: imge10,
+    //     // hover_img: imge1,
+    //     title: "Apple EarPods with Lightning",
+    //     price: 544,
+    //     description: `Unlike traditional, circular earbuds, the design of the EarPods is defined by the geometry of the ear which 
+    //     makes them more comfortable for more people than any other earbud-style headphones
+    //     The speakers inside the EarPods have been engineered to maximize sound output and minimize
+    //      sound loss, which means you get high-quality audio`,
+    //     rating: {
+    //         rate: 4.9,
+    //         count: 510
+    //     },
+    //     color: [
+    //         {
+    //             color: "green",
+    //             // img: imge9,
+    //             quantity: 1,
+    //         },
+    //         {
+    //             color: "red",
+    //             // img: imge10,
+    //             quantity: 1,
+    //         },
+    //         {
+    //             color: "blue",
+    //             // img: imge1,
+    //             quantity: 1,
+    //         },
+    //     ]
+    // },
 
-    {
-        id: 31,
-        batch: "Hot",
-        category: "pharmacy",
-        // img: Pro1,
-        title: "Antiseptic gel",
-        price: 100,
-        oldprice: 120,
-        description: `Unlike traditional, circular earbuds, the design of the EarPods is defined by the geometry of the ear which 
-        makes them more comfortable for more people than any other earbud-style headphones
-        The speakers inside the EarPods have been engineered to maximize sound output and minimize
-         sound loss, which means you get high-quality audio`,
-        rating: {
-            rate: 4.9,
-            count: 510
-        },
-        color: [
-            {
-                color: "green",
-                // img: imge9,
-                quantity: 1,
-            },
-            {
-                color: "red",
-                // img: imge10,
-                quantity: 1,
-            },
-            {
-                color: "blue",
-                // img: imge1,
-                quantity: 1,
-            },
-        ]
-    },
-    {
-        id: 32,
-        batch: "Hot",
-        category: "pharmacy",
-        // img: Pro2,
-        title: "Antiseptic gel",
-        price: 100,
-        oldprice: 120,
-        description: `Unlike traditional, circular earbuds, the design of the EarPods is defined by the geometry of the ear which 
-        makes them more comfortable for more people than any other earbud-style headphones
-        The speakers inside the EarPods have been engineered to maximize sound output and minimize
-         sound loss, which means you get high-quality audio`,
-        rating: {
-            rate: 4.9,
-            count: 510
-        },
-        color: [
-            {
-                color: "green",
-                // img: imge9,
-                quantity: 1,
-            },
-            {
-                color: "red",
-                // img: imge10,
-                quantity: 1,
-            },
-            {
-                color: "blue",
-                // img: imge1,
-                quantity: 1,
-            },
-        ]
-    },
-    {
-        id: 33,
-        batch: "Hot",
-        category: "pharmacy",
-        // img: Pro3,
-        title: "Antiseptic gel",
-        price: 100,
-        oldprice: 120,
-        description: `Unlike traditional, circular earbuds, the design of the EarPods is defined by the geometry of the ear which 
-        makes them more comfortable for more people than any other earbud-style headphones
-        The speakers inside the EarPods have been engineered to maximize sound output and minimize
-         sound loss, which means you get high-quality audio`,
-        rating: {
-            rate: 4.9,
-            count: 510
-        },
-        color: [
-            {
-                color: "green",
-                // img: imge9,
-                quantity: 1,
-            },
-            {
-                color: "red",
-                // img: imge10,
-                quantity: 1,
-            },
-            {
-                color: "blue",
-                // img: imge1,
-                quantity: 1,
-            },
-        ]
-    },
-    {
-        id: 34,
-        batch: "Hot",
-        category: "pharmacy",
-        // img: Pro4,
-        title: "Antiseptic gel",
-        price: 100,
-        oldprice: 120,
-        description: `Unlike traditional, circular earbuds, the design of the EarPods is defined by the geometry of the ear which 
-        makes them more comfortable for more people than any other earbud-style headphones
-        The speakers inside the EarPods have been engineered to maximize sound output and minimize
-         sound loss, which means you get high-quality audio`,
-        rating: {
-            rate: 4.9,
-            count: 510
-        },
-        color: [
-            {
-                color: "green",
-                // img: imge9,
-                quantity: 1,
-            },
-            {
-                color: "red",
-                // img: imge10,
-                quantity: 1,
-            },
-            {
-                color: "blue",
-                // img: imge1,
-                quantity: 1,
-            },
-        ]
-    },
+    // {
+    //     id: 31,
+    //     batch: "Hot",
+    //     category: "pharmacy",
+    //     // img: Pro1,
+    //     title: "Antiseptic gel",
+    //     price: 100,
+    //     oldprice: 120,
+    //     description: `Unlike traditional, circular earbuds, the design of the EarPods is defined by the geometry of the ear which 
+    //     makes them more comfortable for more people than any other earbud-style headphones
+    //     The speakers inside the EarPods have been engineered to maximize sound output and minimize
+    //      sound loss, which means you get high-quality audio`,
+    //     rating: {
+    //         rate: 4.9,
+    //         count: 510
+    //     },
+    //     color: [
+    //         {
+    //             color: "green",
+    //             // img: imge9,
+    //             quantity: 1,
+    //         },
+    //         {
+    //             color: "red",
+    //             // img: imge10,
+    //             quantity: 1,
+    //         },
+    //         {
+    //             color: "blue",
+    //             // img: imge1,
+    //             quantity: 1,
+    //         },
+    //     ]
+    // },
+    // {
+    //     id: 32,
+    //     batch: "Hot",
+    //     category: "pharmacy",
+    //     // img: Pro2,
+    //     title: "Antiseptic gel",
+    //     price: 100,
+    //     oldprice: 120,
+    //     description: `Unlike traditional, circular earbuds, the design of the EarPods is defined by the geometry of the ear which 
+    //     makes them more comfortable for more people than any other earbud-style headphones
+    //     The speakers inside the EarPods have been engineered to maximize sound output and minimize
+    //      sound loss, which means you get high-quality audio`,
+    //     rating: {
+    //         rate: 4.9,
+    //         count: 510
+    //     },
+    //     color: [
+    //         {
+    //             color: "green",
+    //             // img: imge9,
+    //             quantity: 1,
+    //         },
+    //         {
+    //             color: "red",
+    //             // img: imge10,
+    //             quantity: 1,
+    //         },
+    //         {
+    //             color: "blue",
+    //             // img: imge1,
+    //             quantity: 1,
+    //         },
+    //     ]
+    // },
+    // {
+    //     id: 33,
+    //     batch: "Hot",
+    //     category: "pharmacy",
+    //     // img: Pro3,
+    //     title: "Antiseptic gel",
+    //     price: 100,
+    //     oldprice: 120,
+    //     description: `Unlike traditional, circular earbuds, the design of the EarPods is defined by the geometry of the ear which 
+    //     makes them more comfortable for more people than any other earbud-style headphones
+    //     The speakers inside the EarPods have been engineered to maximize sound output and minimize
+    //      sound loss, which means you get high-quality audio`,
+    //     rating: {
+    //         rate: 4.9,
+    //         count: 510
+    //     },
+    //     color: [
+    //         {
+    //             color: "green",
+    //             // img: imge9,
+    //             quantity: 1,
+    //         },
+    //         {
+    //             color: "red",
+    //             // img: imge10,
+    //             quantity: 1,
+    //         },
+    //         {
+    //             color: "blue",
+    //             // img: imge1,
+    //             quantity: 1,
+    //         },
+    //     ]
+    // },
+    // {
+    //     id: 34,
+    //     batch: "Hot",
+    //     category: "pharmacy",
+    //     // img: Pro4,
+    //     title: "Antiseptic gel",
+    //     price: 100,
+    //     oldprice: 120,
+    //     description: `Unlike traditional, circular earbuds, the design of the EarPods is defined by the geometry of the ear which 
+    //     makes them more comfortable for more people than any other earbud-style headphones
+    //     The speakers inside the EarPods have been engineered to maximize sound output and minimize
+    //      sound loss, which means you get high-quality audio`,
+    //     rating: {
+    //         rate: 4.9,
+    //         count: 510
+    //     },
+    //     color: [
+    //         {
+    //             color: "green",
+    //             // img: imge9,
+    //             quantity: 1,
+    //         },
+    //         {
+    //             color: "red",
+    //             // img: imge10,
+    //             quantity: 1,
+    //         },
+    //         {
+    //             color: "blue",
+    //             // img: imge1,
+    //             quantity: 1,
+    //         },
+    //     ]
+    // },
 ]
