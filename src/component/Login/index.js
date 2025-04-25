@@ -24,7 +24,7 @@ const LoginArea = () => {
                     'or our <b>Shop</b> page',
             }).then((result) => {
                 if(result.isConfirmed) {
-                  history.push('/shop')
+                  history.push('/')
                 } else {
                   // not clicked
                 }
@@ -38,10 +38,8 @@ const LoginArea = () => {
                 title: 'Login Sucessfully',
                 text: 'Welcome '+ name
             })
-            history.push("/shop");
+            history.push("/"); 
         }
-        
-
     }
 
     return (

@@ -26,7 +26,7 @@ const RegisterArea = () => {
                     'or our <b>Shop</b> page',
             }).then((result) => {
                 if(result.isConfirmed) {
-                  history.push("/shop");
+                  history.push("/");
                 } else {
                   // not clicked
                 }
@@ -39,7 +39,7 @@ const RegisterArea = () => {
                 title: 'Registration Sucessfull',
                 text: 'Welcome '+user
             })
-            history.push("/shop");
+            history.push("/");
         }
         
 
