@@ -20,8 +20,8 @@ import imgf5 from '../../assets/img/furniture/product/MEN.jpg'
 import imgf6 from '../../assets/img/furniture/product/AVF ET ALLOHIM.jpg'
 import imgf7 from '../../assets/img/furniture/product/AVF ET ALLOHIM.jpg'
 import imgf8 from '../../assets/img/furniture/product/MEN.jpg'
-import imgf9 from '../../assets/img/furniture/product/9.jpg'
-import imgf10 from '../../assets/img/furniture/product/10.jpg'
+import imgf9 from '../../assets/img/furniture/product/AVF ET ALLOHIM.jpg'
+import imgf10 from '../../assets/img/furniture/product/MEN.jpg'
 
 // electronics img 
 // import imge1 from '../../assets/img/electronics/product/1.jpg'
