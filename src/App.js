@@ -70,7 +70,7 @@ const Furniture = loadable(() => pMinDelay(import('./page/furniture'), 250), { f
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      {/* <BrowserRouter> */}
         <Router>
           <ScrollToTop />
           <Switch>
@@ -127,14 +127,14 @@ const App = () => {
             <Route path='/login' exact component={Login} />
             <Route path='/register' exact component={Register} />
             <Route path='/privacy-policy' exact component={PrivacyPolicy} />
-            <Route path='/faqs' exact component={Faqs} />
+            <Route path='/help' exact component={Faqs} />
             {/* <Route path='/coming-soon' exact component={ComingSoon} /> */}
             <Route path='/contact-one' exact component={ContactOne} />
             {/* <Route path='/contact-two' exact component={ContactTwo} /> */}
             <Route exact component={Error} />
           </Switch>  
         </Router>
-      </BrowserRouter>
+      {/* </BrowserRouter> */}
 
     </>
   );

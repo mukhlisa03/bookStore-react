@@ -7,7 +7,7 @@ const Faqs = () => {
     return (
         <>
             <Header />
-            <Banner title="Faqs" />
+            <Banner title="Help" />
             <FaqsArea />
             <Footer />
         </>
