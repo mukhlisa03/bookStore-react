@@ -12,16 +12,16 @@
 
 
 // furniture img 
-import imgf1 from '../../assets/img/furniture/product/MEN.jpg'
-import imgf2 from '../../assets/img/furniture/product/AVF ET ALLOHIM.jpg'
-import imgf3 from '../../assets/img/furniture/product/MEN.jpg'
-import imgf4 from '../../assets/img/furniture/product/AVF ET ALLOHIM.jpg'
-import imgf5 from '../../assets/img/furniture/product/MEN.jpg'
-import imgf6 from '../../assets/img/furniture/product/AVF ET ALLOHIM.jpg'
-import imgf7 from '../../assets/img/furniture/product/AVF ET ALLOHIM.jpg'
-import imgf8 from '../../assets/img/furniture/product/MEN.jpg'
-import imgf9 from '../../assets/img/furniture/product/AVF ET ALLOHIM.jpg'
-import imgf10 from '../../assets/img/furniture/product/MEN.jpg'
+import imgf1 from '../../assets/img/furniture/product/SIRR.jpg'
+import imgf2 from "../../assets/img/furniture/product/A'MO.jpg"
+import imgf3 from '../../assets/img/furniture/product/OXI.jpg'
+import imgf4 from '../../assets/img/furniture/product/DAM.jpg'
+import imgf5 from '../../assets/img/furniture/product/LOL.jpg'
+import imgf6 from '../../assets/img/furniture/product/PIR.jpg'
+import imgf7 from '../../assets/img/furniture/product/ASO.jpg'
+import imgf8 from '../../assets/img/furniture/product/MENNN.jpg'
+import imgf9 from '../../assets/img/furniture/product/ASO.jpg'
+import imgf10 from '../../assets/img/furniture/product/PIR.jpg'
 
 // electronics img 
 // import imge1 from '../../assets/img/electronics/product/1.jpg'

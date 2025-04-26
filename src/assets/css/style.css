@@ -3716,6 +3716,19 @@ button {
     border-radius: 8px;
 } */
 
+
+
+.popular-product-wrapper {
+  padding: 0 70px;
+}
+
+.popular-product-wrapper .product_box {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+
 .product_wrappers_one img {
     width: 100%;
     height: auto; /* Yoki 250px — o‘zing tanla */

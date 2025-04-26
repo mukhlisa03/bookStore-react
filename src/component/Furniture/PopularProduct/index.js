@@ -46,26 +46,27 @@ const PopularProduct = () => {
         ]
       };
     return (
-        <>
+      <>
         <section id="furniture_popular_product" className="ptb-100">
-        <div className="container">
-            <Heading heading={'Popular Book'} />
+          <div className="container">
+            <Heading heading={"Popular Book"} />
             <div className="row">
-                <div className="col-lg-12">
-                    <div className="furniture_popular_slider">
-                    
-                    <Slider {...settings}>
-                    {products.slice(6, 13).map((data, index) =>(
-                          <ProductCard data={data} key={index} />    
-                     ))}
+              <div className="col-lg-12">
+                <div className="furniture_popular_slider">
+                  <Slider {...settings}>
+                    {products.slice(6, 13).map((data, index) => (
+                      <div className="popular-product-wrapper" key={index}>
+                        <ProductCard data={data} />
+                      </div>
+                    ))}
                   </Slider>
-                    </div>
                 </div>
+              </div>
             </div>
-        </div>
-    </section>
-        </>
-    )
+          </div>
+        </section>
+      </>
+    );
 }
 
 export default PopularProduct
