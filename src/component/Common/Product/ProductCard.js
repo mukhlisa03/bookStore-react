@@ -13,9 +13,9 @@ const ProductCard = (props) => {
         dispatch({ type: "products/addToCart", payload: { id } })
     }
     // Add to Favorite
-    const addToFav = async (id) => {
-        dispatch({ type: "products/addToFav", payload: { id } })
-    }
+    // const addToFav = async (id) => {
+    //     dispatch({ type: "products/addToFav", payload: { id } })
+    // }
     // Add to Compare
     // const addToComp = async (id) => {
     //     dispatch({ type: "products/addToComp", payload: { id } })
@@ -33,11 +33,11 @@ const ProductCard = (props) => {
                     <span className="badges">
                         <span className={(['hot','new','sale'][Math.round(Math.random()*2)])}>{props.data.labels}</span>
                     </span>
-                    <div className="actions">
+                    {/* <div className="actions">
                         <a href="#!" className="action wishlist" title="Wishlist" onClick={() => addToFav(props.data.id)}><AiOutlineHeart /></a>
-                        {/* <a href="#!" className="action quickview" title="Quick view" onClick={() => setModalShow(true)}><AiOutlineExpand /></a>
-                        <a href="#!" className="action compare" title="Compare" onClick={() => addToComp(props.data.id)}><FaExchangeAlt /></a> */}
-                    </div>
+                        <a href="#!" className="action quickview" title="Quick view" onClick={() => setModalShow(true)}><AiOutlineExpand /></a>
+                        <a href="#!" className="action compare" title="Compare" onClick={() => addToComp(props.data.id)}><FaExchangeAlt /></a>
+                    </div> */}
                     <button type="button" className="add-to-cart offcanvas-toggle" onClick={() => addToCart(props.data.id)}>Add to cart</button>
                 </div>
                 <div className="content">

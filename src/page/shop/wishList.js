@@ -8,10 +8,10 @@ const WishLists = () => {
         <>
             <Header />
             <Banner title="Wishlist" />
-            <Wishlist />
+            {/* <Wishlist /> */}
             <Footer />
         </>
     )
 }
 
-export default WishLists
+// export default WishLists

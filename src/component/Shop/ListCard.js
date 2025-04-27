@@ -16,14 +16,14 @@ const ListCard = (props) => {
     }
     
     // Add to Favorite
-    const addToFav = async (id) => {
-        dispatch({ type: "products/addToFav", payload: { id } })
-    }
+    // const addToFav = async (id) => {
+    //     dispatch({ type: "products/addToFav", payload: { id } })
+    // }
 
     // Add to Compare
-    const addToComp = async (id) => {
-        dispatch({ type: "products/addToComp", payload: { id } })
-    }
+    // const addToComp = async (id) => {
+    //     dispatch({ type: "products/addToComp", payload: { id } })
+    // }
     const [modalShow, setModalShow] = useState(false);
     
     return (
@@ -47,12 +47,12 @@ const ListCard = (props) => {
                                         <span className="new">${props.data.price}. 00</span>
                                     </span>
                                 </div>
-                                <div className="actions">
+                                {/* <div className="actions">
                                     <a href="#!" className="action wishlist" title="Wishlist"  onClick={() => addToFav(props.data.id)}><AiOutlineHeart/></a>
                                     <a href="#!" className="action quickview" data-link-action="quickview"
                                         title="Quick view" data-toggle="modal" data-target="#exampleModalCenter"  onClick={() => setModalShow(true)}><AiOutlineExpand/></a>
                                     <a href="#!" className="action compare" title="Compare" onClick={() => addToComp(props.data.id)}><FaExchangeAlt/></a>
-                                </div>
+                                </div> */}
                                 <a href="#!" className="add-to-cart offcanvas-toggle btn btn_sm theme-btn-one btn-black-overlay" onClick={() => addToCart(props.data.id)}>Add to cart</a>
                             </div>
                         </div>
