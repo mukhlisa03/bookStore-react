@@ -537,9 +537,9 @@ const Header = () => {
               {/* <li>
                 <Link to="/wishlist">Wishlist</Link>
               </li> */}
-              {/* <li>
+              <li>
                 <Link to="/cart">Cart</Link>
-              </li> */}
+              </li>
               {/* <li>
                   <Link to="/checkout-one">Checkout</Link>
                 </li> */}
@@ -661,14 +661,14 @@ const Header = () => {
             </span>
           </div>
           <ul className="offcanvas-cart-action-button">
-            {/* <li>
+            <li>
               <Link
                 to="/cart"
                 className="theme-btn-one btn-black-overlay btn_md"
               >
                 View Cart
               </Link>
-            </li> */}
+            </li>
             {/* <li>
               <Link
                   to="/checkout-one"

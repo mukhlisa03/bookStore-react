@@ -15,39 +15,39 @@ const AccountDetails = () => {
                             <div className="img_profiles">
                                 <img src={img1} alt="img" />
                             </div>
-                            <div className="input-radio">
+                            {/* <div className="input-radio">
                                 <span className="custom-radio">
                                     <input type="radio" defaultValue="1" name="mr" checked readOnly />Welcome</span>
-                            </div>
+                            </div> */}
                             <div className="default-form-box mb-20">
-                                <label>First Name</label>
-                                <input type="text" name="first-name" className="form-control" defaultValue="Kazi"
+                                <label>MemberNick</label>
+                                <input type="text" name="first-name" className="form-control" defaultValue=""
                                     readOnly />
                             </div>
                             <div className="default-form-box mb-20">
-                                <label>Last Name</label>
-                                <input type="text" name="last-name" className="form-control" defaultValue="Saiful"
+                                <label>MemberAddress</label>
+                                <input type="text" name="last-name" className="form-control" defaultValue=""
                                     readOnly />
                             </div>
                             <div className="default-form-box mb-20">
-                                <label>Email</label>
-                                <input type="text" name="email-name" defaultValue="demo123@gmail.com"
+                                <label>MemberPhone</label>
+                                <input type="text" name="email-name" defaultValue=""
                                     className="form-control" readOnly />
                             </div>
                             <div className="default-form-box mb-20">
-                                <label>Password</label>
-                                <input type="password" name="user-password" defaultValue="123456789"
+                                <label>MemberPassword</label>
+                                <input type="password" name="user-password" defaultValue=""
                                     className="form-control" readOnly />
                             </div>
                             <div className="default-form-box mb-20">
-                                <label>Birthdate</label>
-                                <input type="date" name="birthday" defaultValue="2017-06-01"
+                                <label>MemberDesc</label>
+                                <input type="text" name="birthday" defaultValue=""
                                     className="form-control" readOnly />
                             </div>
-                            <span className="example">
+                            {/* <span className="example">
                                 (E.g.: 05/31/1970)
-                            </span>
-                            <br />
+                            </span> */}
+                            {/* <br />
                             <label className="checkbox-default" htmlFor="offer">
                                 <input type="checkbox" id="offer" />
                                 <span className="ml-2">Receive offers from our partners</span>
@@ -59,7 +59,7 @@ const AccountDetails = () => {
                                 <p className="mt-2">You may unsubscribe at any
                                     moment. For that purpose, please find our contact info in the
                                     legal notice.</p>
-                            </label>
+                            </label> */}
                         </form>
                     </div>
                 </div>
