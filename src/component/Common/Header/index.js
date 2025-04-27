@@ -135,7 +135,7 @@ const Header = () => {
                   </div>
 
                   <ul className="header-action-link action-color--black action-hover-color--golden">
-                    <li>
+                    {/* <li>
                       {favorites.length ? (
                         <a
                           href="#offcanvas-wishlish"
@@ -154,7 +154,7 @@ const Header = () => {
                           <span className="item-count">{favorites.length}</span>
                         </a>
                       )}
-                    </li>
+                    </li> */}
                     <li>
                       {carts.length ? (
                         <a
@@ -172,7 +172,7 @@ const Header = () => {
                         </a>
                       )}
                     </li>
-                    <li>
+                    {/* <li>
                       <a
                         href="#search"
                         className="search_width"
@@ -180,7 +180,7 @@ const Header = () => {
                       >
                         <img src={svgsearch} alt="img" />
                       </a>
-                    </li>
+                    </li> */}
                     <li>
                       <a
                         href="#offcanvas-about"
@@ -225,7 +225,7 @@ const Header = () => {
                       <img src={svgsearch} alt="img" />
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     {favorites.length ? (
                       <a
                         href="#offcanvas-wishlish"
@@ -244,7 +244,7 @@ const Header = () => {
                         <span className="item-count">{favorites.length}</span>
                       </a>
                     )}
-                  </li>
+                  </li> */}
                   <li>
                     {carts.length ? (
                       <a
@@ -534,12 +534,12 @@ const Header = () => {
               </li>
             </ul>
             <ul className="user-link">
-              <li>
+              {/* <li>
                 <Link to="/wishlist">Wishlist</Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link to="/cart">Cart</Link>
-              </li>
+              </li> */}
               {/* <li>
                   <Link to="/checkout-one">Checkout</Link>
                 </li> */}
@@ -586,12 +586,12 @@ const Header = () => {
             </li>
           </ul>
           <ul className="user-link">
-            <li>
+            {/* <li>
               <Link to="/wishlist">Wishlist</Link>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <Link to="/cart">Cart</Link>
-            </li>
+            </li> */}
             {/* <li>
                 <Link to="/checkout-one">Checkout</Link>
               </li> */}
@@ -661,22 +661,22 @@ const Header = () => {
             </span>
           </div>
           <ul className="offcanvas-cart-action-button">
-            <li>
+            {/* <li>
               <Link
                 to="/cart"
                 className="theme-btn-one btn-black-overlay btn_md"
               >
                 View Cart
               </Link>
-            </li>
-            <li>
-              {/* <Link
+            </li> */}
+            {/* <li>
+              <Link
                   to="/checkout-one"
                   className="theme-btn-one btn-black-overlay btn_md"
                 >
                   Checkout
-                </Link> */}
-            </li>
+                </Link>
+            </li> */}
           </ul>
         </div>
       </div>
@@ -685,12 +685,12 @@ const Header = () => {
         id="offcanvas-wishlish"
         className="offcanvas offcanvas-rightside offcanvas-add-cart-section"
       >
-        <div className="offcanvas-header text-right">
+        {/* <div className="offcanvas-header text-right">
           <button className="offcanvas-close" onClick={handleWish}>
             <img src={svg} alt="icon" />
           </button>
-        </div>
-        <div className="offcanvas-wishlist-wrapper">
+        </div> */}
+        {/* <div className="offcanvas-wishlist-wrapper">
           <h4 className="offcanvas-title">Wishlist</h4>
 
           <ul className="offcanvas-wishlist">
@@ -746,7 +746,7 @@ const Header = () => {
               </Link>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
 
       <div id="search" className="search-modal">
