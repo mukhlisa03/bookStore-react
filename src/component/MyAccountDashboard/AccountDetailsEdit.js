@@ -45,7 +45,7 @@ const AccountDetailsEdit = () => {
                   id="account_info_form"
                   onSubmit={(e) => {
                     e.preventDefault();
-                    history.push("/vendor/vendor-profile");
+                    history.push("/");
                   }}
                 >
                   {/* <div className="input-radio">
@@ -53,7 +53,7 @@ const AccountDetailsEdit = () => {
                                 <span className="custom-radio"><input type="radio" value="1" name="id_gender"/> Mrs.</span>
                             </div> */}
                   <div className="form-group">
-                    <label htmlFor="f_name">Member Nick</label>
+                    <label htmlFor="m_nick">Member Nick</label>
                     <input
                       type="text"
                       className="form-control"
@@ -64,21 +64,31 @@ const AccountDetailsEdit = () => {
                     {/* <input type="text" className="form-control" placeholder="Dhoe" required /> */}
                   </div>
                   <div className="form-group">
-                    <label htmlFor="email_address">Member Desc</label>
+                    <label htmlFor="_m_desc">Member Desc</label>
                     <input
-                      type="email"
+                      type="text"
                       className="form-control"
-                    //   id="email_address"
+                      id="m_desc"
                       placeholder=""
                       required
                     />
                   </div>
                   <div className="form-group">
-                    <label htmlFor="email_address">Member Address</label>
+                    <label htmlFor="m_address">Member Address</label>
                     <input
-                      type="email"
+                      type="text"
                       className="form-control"
-                    //   id="email_address"
+                      id="m_address"
+                      placeholder=""
+                      required
+                    />
+                  </div>
+                  <div className="form-group">
+                    <label htmlFor="m_phone">Member Phone</label>
+                    <input
+                      type="text"
+                      className="form-control"
+                      id="m_phone"
                       placeholder=""
                       required
                     />

@@ -58,7 +58,7 @@ const RegisterArea = () => {
                 >
                   <div className="default-form-box">
                     <label>
-                      Member Nick<span className="text-danger">*</span>
+                      memberNick<span className="text-danger">*</span>
                     </label>
                     <input
                       type="text"
@@ -70,10 +70,10 @@ const RegisterArea = () => {
                   </div>
                   <div className="default-form-box">
                     <label>
-                      Member Phone<span className="text-danger">*</span>
+                      memberPhone<span className="text-danger">*</span>
                     </label>
                     <input
-                      type="phone"
+                      type="text"
                       className="form-control"
                       value={phoneNumber}
                       onChange={(e) => setPhoneNumber(e.currentTarget.value)}
@@ -82,7 +82,7 @@ const RegisterArea = () => {
                   </div>
                   <div className="default-form-box">
                     <label>
-                      Member Password<span className="text-danger">*</span>
+                      memberPassword<span className="text-danger">*</span>
                     </label>
                     <input
                       type="password"

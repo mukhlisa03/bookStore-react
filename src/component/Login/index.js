@@ -60,7 +60,7 @@ const LoginArea = () => {
               >
                 <div className="default-form-box">
                   <label>
-                    Member Nick<span className="text-danger">*</span>
+                    memberNick<span className="text-danger">*</span>
                   </label>
                   <input
                     type="text"
@@ -72,7 +72,7 @@ const LoginArea = () => {
                 </div>
                 <div className="default-form-box">
                   <label>
-                    Member Password<span className="text-danger">*</span>
+                    memberPassword<span className="text-danger">*</span>
                   </label>
                   <input
                     type="password"
@@ -92,7 +92,7 @@ const LoginArea = () => {
                   </button>
                 </div>
                 <div className="remember_area">
-                  <div className="form-check">
+                  {/* <div className="form-check">
                     <input
                       type="checkbox"
                       className="form-check-input"
@@ -104,7 +104,7 @@ const LoginArea = () => {
                     >
                       Remember me
                     </label>
-                  </div>
+                  </div> */}
                 </div>
                 <Link to="/register" className="active">
                   Create Your Account?
