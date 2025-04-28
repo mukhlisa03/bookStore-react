@@ -53,7 +53,7 @@ const AccountDetailsEdit = () => {
                                 <span className="custom-radio"><input type="radio" value="1" name="id_gender"/> Mrs.</span>
                             </div> */}
                   <div className="form-group">
-                    <label htmlFor="f_name">MemberNick</label>
+                    <label htmlFor="f_name">Member Nick</label>
                     <input
                       type="text"
                       className="form-control"
@@ -64,7 +64,7 @@ const AccountDetailsEdit = () => {
                     {/* <input type="text" className="form-control" placeholder="Dhoe" required /> */}
                   </div>
                   <div className="form-group">
-                    <label htmlFor="email_address">MemberDesc</label>
+                    <label htmlFor="email_address">Member Desc</label>
                     <input
                       type="email"
                       className="form-control"
@@ -74,7 +74,7 @@ const AccountDetailsEdit = () => {
                     />
                   </div>
                   <div className="form-group">
-                    <label htmlFor="email_address">MemberAddress</label>
+                    <label htmlFor="email_address">Member Address</label>
                     <input
                       type="email"
                       className="form-control"
@@ -84,7 +84,7 @@ const AccountDetailsEdit = () => {
                     />
                   </div>
                   <div className="form-group">
-                    <label htmlFor="current_password">MemberPassword</label>
+                    <label htmlFor="current_password">Member Password</label>
                     <input
                       type="password"
                       className="form-control"

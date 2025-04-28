@@ -60,7 +60,7 @@ const LoginArea = () => {
               >
                 <div className="default-form-box">
                   <label>
-                    MemberNick<span className="text-danger">*</span>
+                    Member Nick<span className="text-danger">*</span>
                   </label>
                   <input
                     type="text"
@@ -72,7 +72,7 @@ const LoginArea = () => {
                 </div>
                 <div className="default-form-box">
                   <label>
-                    MemberPassword<span className="text-danger">*</span>
+                    Member Password<span className="text-danger">*</span>
                   </label>
                   <input
                     type="password"

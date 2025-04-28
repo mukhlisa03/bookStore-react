@@ -20,27 +20,27 @@ const AccountDetails = () => {
                                     <input type="radio" defaultValue="1" name="mr" checked readOnly />Welcome</span>
                             </div> */}
                             <div className="default-form-box mb-20">
-                                <label>MemberNick</label>
+                                <label>Member Nick</label>
                                 <input type="text" name="first-name" className="form-control" defaultValue=""
                                     readOnly />
                             </div>
                             <div className="default-form-box mb-20">
-                                <label>MemberAddress</label>
+                                <label>Member Address</label>
                                 <input type="text" name="last-name" className="form-control" defaultValue=""
                                     readOnly />
                             </div>
                             <div className="default-form-box mb-20">
-                                <label>MemberPhone</label>
+                                <label>Member Phone</label>
                                 <input type="text" name="email-name" defaultValue=""
                                     className="form-control" readOnly />
                             </div>
                             <div className="default-form-box mb-20">
-                                <label>MemberPassword</label>
+                                <label>Member Password</label>
                                 <input type="password" name="user-password" defaultValue=""
                                     className="form-control" readOnly />
                             </div>
                             <div className="default-form-box mb-20">
-                                <label>MemberDesc</label>
+                                <label>Member Desc</label>
                                 <input type="text" name="birthday" defaultValue=""
                                     className="form-control" readOnly />
                             </div>
